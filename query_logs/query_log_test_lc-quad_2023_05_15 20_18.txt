@@ -1,0 +1,144 @@
+[INFO] System initialization time: 26 ms
+
+
+Question 0: Which architect of Marine Corps Air Station Kaneohe Bay was also tenant of New Sanno hotel /'
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Marine_Corps_Air_Station_Kaneohe_Bay> <http://dbpedia.org/property/architect> ?uri. <http://dbpedia.org/resource/New_Sanno_Hotel> <http://dbpedia.org/ontology/tenant> ?uri} 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 1, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 25504 ms, average: 25530.00 ms/ques, entity detection: 4166.00 ms/ques (linking tool: 4166.00 ms/ques), relation detection: 7050.00 ms/ques (similarity: 1039.00 ms/ques), EDG generation: 7509.00 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+===============================================
+
+
+Question 1: Which sects people are part of local political parties which fall under the International Muslim Brotherhood?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/international> <http://dbpedia.org/resource/Muslim_Brotherhood> . ?x <http://dbpedia.org/ontology/religion> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PoliticalParty>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 2, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 24523 ms, average: 25027.00 ms/ques, entity detection: 5341.00 ms/ques (linking tool: 5341.00 ms/ques), relation detection: 9584.50 ms/ques (similarity: 2421.00 ms/ques), EDG generation: 5215.00 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.5, R: 0.5, micro F1: 0.5, macro F1: 0.5
+===============================================
+
+
+Question 2: List common systems are developed by of the Google Videos and written by of the Google Web Toolkit ?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Google_Videos> <http://dbpedia.org/property/developer> ?uri. <http://dbpedia.org/resource/Google_Web_Toolkit> <http://dbpedia.org/ontology/author> ?uri} 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 3, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 26388 ms, average: 25481.00 ms/ques, entity detection: 5566.67 ms/ques (linking tool: 5566.67 ms/ques), relation detection: 11363.33 ms/ques (similarity: 3560.00 ms/ques), EDG generation: 4310.67 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6666666666666666, R: 0.6666666666666666, micro F1: 0.6666666666666666, macro F1: 0.6666666666666666
+===============================================
+
+
+Question 3: For which games are Sam Loyd and Eric Schiller both famous?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?uri. <http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?uri . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 4, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 25345 ms, average: 25447.00 ms/ques, entity detection: 6721.50 ms/ques (linking tool: 6721.50 ms/ques), relation detection: 11259.25 ms/ques (similarity: 2670.00 ms/ques), EDG generation: 3753.00 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.75, R: 0.75, micro F1: 0.75, macro F1: 0.75
+===============================================
+
+
+Question 4: Is Peter Piper Pizza in the pizza industry?
+[DEBUG] Golden sparql: ASK WHERE { <http://dbpedia.org/resource/Peter_Piper_Pizza> <http://dbpedia.org/ontology/industry> <http://dbpedia.org/resource/Pizza> }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [false]
+[INFO] Predicted Answer: [false]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 5, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 12923 ms, average: 22942.20 ms/ques, entity detection: 6103.80 ms/ques (linking tool: 6103.80 ms/ques), relation detection: 10111.20 ms/ques (similarity: 2136.00 ms/ques), EDG generation: 3380.40 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.8, R: 0.8, micro F1: 0.8, macro F1: 0.8000000000000002
+===============================================
+
+
+Question 5: Name the artist who made Dream Dancing and is often associated with Joe Pass?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Joe_Pass> <http://dbpedia.org/ontology/associatedBand> ?uri. <http://dbpedia.org/resource/Dream_Dancing_(album)> <http://dbpedia.org/property/artist> ?uri . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 6, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 29220 ms, average: 23988.50 ms/ques, entity detection: 6142.17 ms/ques (linking tool: 6142.17 ms/ques), relation detection: 10557.83 ms/ques (similarity: 2531.00 ms/ques), EDG generation: 3182.17 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.8333333333333334, R: 0.8333333333333334, micro F1: 0.8333333333333334, macro F1: 0.8333333333333334
+===============================================
+
+
+Question 6: Who is the office holder with deputies as Neil Brown and Andrew Peacock?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?uri <http://dbpedia.org/property/deputy> <http://dbpedia.org/resource/Neil_Brown_(Australian_politician)> . ?uri <http://dbpedia.org/property/deputy> <http://dbpedia.org/resource/Andrew_Peacock> . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 7, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 23174 ms, average: 23872.14 ms/ques, entity detection: 6602.71 ms/ques (linking tool: 6602.71 ms/ques), relation detection: 10333.14 ms/ques (similarity: 2304.43 ms/ques), EDG generation: 3093.43 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.7142857142857143, R: 0.7142857142857143, micro F1: 0.7142857142857143, macro F1: 0.7142857142857143
+===============================================
+
+
+Question 7: Where did these popular aeroplanes - Focke Wulf 260 and Start+Flug H 101 originate?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Focke-Wulf_Fw_260> <http://dbpedia.org/property/nationalOrigin> ?uri. <http://dbpedia.org/resource/Start_+_Flug_H-101> <http://dbpedia.org/property/nationalOrigin> ?uri . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 8, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 24147 ms, average: 23906.50 ms/ques, entity detection: 6354.50 ms/ques (linking tool: 6354.50 ms/ques), relation detection: 10611.25 ms/ques (similarity: 2752.00 ms/ques), EDG generation: 3112.00 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.75, R: 0.75, micro F1: 0.75, macro F1: 0.75
+===============================================
+
+
+Question 8: Which television show 's producer is Stephen E. Ambrose and written by Erik Jendresen?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/producer> <http://dbpedia.org/resource/Stephen_E._Ambrose> . ?uri <http://dbpedia.org/property/writer> <http://dbpedia.org/resource/Erik_Jendresen>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 9, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 24613 ms, average: 23985.11 ms/ques, entity detection: 6608.67 ms/ques (linking tool: 6608.67 ms/ques), relation detection: 10611.00 ms/ques (similarity: 2674.33 ms/ques), EDG generation: 3074.33 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6666666666666666, R: 0.6666666666666666, micro F1: 0.6666666666666666, macro F1: 0.6666666666666666
+===============================================
+
+
+Question 9: Who created the Women in the Garden and also the L'Enfant a la tasse ?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Women_in_the_Garden> <http://dbpedia.org/property/artist> ?uri. <http://dbpedia.org/resource/L'Enfant_a_la_tasse> <http://dbpedia.org/property/artist> ?uri . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 10, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 30214 ms, average: 24608.00 ms/ques, entity detection: 6587.80 ms/ques (linking tool: 6587.70 ms/ques), relation detection: 11476.40 ms/ques (similarity: 3102.90 ms/ques), EDG generation: 2999.00 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.7, R: 0.7, micro F1: 0.7, macro F1: 0.7
+===============================================
+
+
+Question 10: Which famous horserace has seen both Fergie sutherland and the illustrious War of Attrition?

@@ -1,0 +1,176 @@
+[INFO] System initialization time: 33 ms
+
+
+Question 0: Which architect of Marine Corps Air Station Kaneohe Bay was also tenant of New Sanno hotel /'
+[ERROR] Question 0 exception: answer generation
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 1, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 42141 ms, average: 42174.00 ms/ques, entity detection: 4393.00 ms/ques (linking tool: 4392.00 ms/ques), relation detection: 0.00 ms/ques (similarity: 8.00 ms/ques), EDG generation: 9183.00 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+===============================================
+
+
+Question 1: Which sects people are part of local political parties which fall under the International Muslim Brotherhood?
+[ERROR] Question 1 exception: answer generation
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 2, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 38452 ms, average: 40313.00 ms/ques, entity detection: 3970.50 ms/ques (linking tool: 3970.00 ms/ques), relation detection: 1339.00 ms/ques (similarity: 8.50 ms/ques), EDG generation: 7317.50 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+===============================================
+
+
+Question 2: List common systems are developed by of the Google Videos and written by of the Google Web Toolkit ?
+[ERROR] Question 2 exception: answer generation
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 3, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 35548 ms, average: 38724.67 ms/ques, entity detection: 4676.67 ms/ques (linking tool: 4676.33 ms/ques), relation detection: 892.67 ms/ques (similarity: 6.67 ms/ques), EDG generation: 5948.67 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+===============================================
+
+
+Question 3: For which games are Sam Loyd and Eric Schiller both famous?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?uri. <http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?uri . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 4, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 21351 ms, average: 34381.25 ms/ques, entity detection: 5419.25 ms/ques (linking tool: 5418.75 ms/ques), relation detection: 3025.50 ms/ques (similarity: 5.00 ms/ques), EDG generation: 5020.75 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+===============================================
+
+
+Question 4: Is Peter Piper Pizza in the pizza industry?
+[DEBUG] Golden sparql: ASK WHERE { <http://dbpedia.org/resource/Peter_Piper_Pizza> <http://dbpedia.org/ontology/industry> <http://dbpedia.org/resource/Pizza> }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [false]
+[INFO] Predicted Answer: [false]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 5, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 13139 ms, average: 30133.00 ms/ques, entity detection: 5067.40 ms/ques (linking tool: 5066.80 ms/ques), relation detection: 3499.40 ms/ques (similarity: 4.00 ms/ques), EDG generation: 4434.20 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+===============================================
+
+
+Question 5: Name the artist who made Dream Dancing and is often associated with Joe Pass?
+[ERROR] Question 5 exception: answer generation
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 6, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 38148 ms, average: 31468.83 ms/ques, entity detection: 5810.83 ms/ques (linking tool: 5810.33 ms/ques), relation detection: 2916.17 ms/ques (similarity: 3.50 ms/ques), EDG generation: 4057.83 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+===============================================
+
+
+Question 6: Who is the office holder with deputies as Neil Brown and Andrew Peacock?
+[ERROR] Question 6 exception: answer generation
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 7, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 34895 ms, average: 31958.29 ms/ques, entity detection: 5905.86 ms/ques (linking tool: 5905.43 ms/ques), relation detection: 2499.57 ms/ques (similarity: 3.00 ms/ques), EDG generation: 3898.43 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+===============================================
+
+
+Question 7: Where did these popular aeroplanes - Focke Wulf 260 and Start+Flug H 101 originate?
+[ERROR] Question 7 exception: answer generation
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 8, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 33041 ms, average: 32093.62 ms/ques, entity detection: 5639.50 ms/ques (linking tool: 5639.12 ms/ques), relation detection: 2187.12 ms/ques (similarity: 2.88 ms/ques), EDG generation: 3767.75 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+===============================================
+
+
+Question 8: Which television show 's producer is Stephen E. Ambrose and written by Erik Jendresen?
+[ERROR] Question 8 exception: answer generation
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 9, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 63469 ms, average: 35579.78 ms/ques, entity detection: 8224.89 ms/ques (linking tool: 8224.56 ms/ques), relation detection: 1944.11 ms/ques (similarity: 3.11 ms/ques), EDG generation: 4206.44 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+===============================================
+
+
+Question 9: Who created the Women in the Garden and also the L'Enfant a la tasse ?
+[ERROR] Question 9 exception: answer generation
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 10, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 80914 ms, average: 40113.30 ms/ques, entity detection: 9453.00 ms/ques (linking tool: 9452.70 ms/ques), relation detection: 1749.70 ms/ques (similarity: 2.90 ms/ques), EDG generation: 4208.40 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+===============================================
+
+
+Question 10: Which famous horserace has seen both Fergie sutherland and the illustrious War of Attrition?
+[ERROR] Question 10 exception: answer generation
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 11, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 42296 ms, average: 40311.73 ms/ques, entity detection: 9091.64 ms/ques (linking tool: 9091.36 ms/ques), relation detection: 1795.00 ms/ques (similarity: 2.64 ms/ques), EDG generation: 4299.09 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+===============================================
+
+
+Question 11: Tell me the name of the Prime Time Entertainment Network's TV show whose Artist is Christopher Franke ?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/artist> <http://dbpedia.org/resource/Christopher_Franke> . ?uri <http://dbpedia.org/ontology/network> <http://dbpedia.org/resource/Prime_Time_Entertainment_Network>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 12, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 38176 ms, average: 40133.75 ms/ques, entity detection: 9927.17 ms/ques (linking tool: 9926.92 ms/ques), relation detection: 2200.58 ms/ques (similarity: 2.42 ms/ques), EDG generation: 4761.42 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6666666666666666, R: 0.6666666666666666, micro F1: 0.6666666666666666, macro F1: 0.6666666666666666
+===============================================
+
+
+Question 12: How many other battles have the military person fought whose one of the battles is World War II ?
+[ERROR] Question 12 exception: answer generation
+[INFO] Golden Answer: [0]
+[INFO] Predicted Answer: []
+[INFO] P: 0.0, R: 0.0, F: 0.0
+[INFO] Cumulative metrics, sample: 13, P: 0.923, R: 0.923, macro F1: 0.923
+[INFO] Current question consumed time: 50095 ms, average: 40900.00 ms/ques, entity detection: 10201.85 ms/ques (linking tool: 10201.62 ms/ques), relation detection: 2031.31 ms/ques (similarity: 2.38 ms/ques), EDG generation: 5093.08 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6666666666666666, R: 0.6666666666666666, micro F1: 0.6666666666666666, macro F1: 0.6666666666666666
+===============================================
+
+
+Question 13: Whose network's parent organisation is Comcast?

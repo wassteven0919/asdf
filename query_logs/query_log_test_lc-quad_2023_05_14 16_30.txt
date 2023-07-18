@@ -1,0 +1,97 @@
+[INFO] System initialization time: 26 ms
+
+
+Question 0: Which architect of Marine Corps Air Station Kaneohe Bay was also tenant of New Sanno hotel /'
+[ERROR] Question 0 exception: answer generation
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 1, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 82571 ms, average: 82597.00 ms/ques, entity detection: 14333.00 ms/ques (linking tool: 14333.00 ms/ques), relation detection: 0.00 ms/ques (similarity: 9.00 ms/ques), EDG generation: 32937.00 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+===============================================
+
+
+Question 1: Which sects people are part of local political parties which fall under the International Muslim Brotherhood?
+[ERROR] Question 1 exception: answer generation
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 2, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 61011 ms, average: 71804.50 ms/ques, entity detection: 9985.00 ms/ques (linking tool: 9985.00 ms/ques), relation detection: 2240.00 ms/ques (similarity: 16.00 ms/ques), EDG generation: 27436.50 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+===============================================
+
+
+Question 2: List common systems are developed by of the Google Videos and written by of the Google Web Toolkit ?
+[ERROR] Question 2 exception: answer generation
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 3, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 65359 ms, average: 69656.00 ms/ques, entity detection: 12185.33 ms/ques (linking tool: 12185.33 ms/ques), relation detection: 1493.33 ms/ques (similarity: 11.00 ms/ques), EDG generation: 24326.33 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+===============================================
+
+
+Question 3: For which games are Sam Loyd and Eric Schiller both famous?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?uri. <http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?uri . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 4, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 43297 ms, average: 63066.25 ms/ques, entity detection: 10717.50 ms/ques (linking tool: 10717.50 ms/ques), relation detection: 3354.50 ms/ques (similarity: 8.25 ms/ques), EDG generation: 23550.50 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+===============================================
+
+
+Question 4: Is Peter Piper Pizza in the pizza industry?
+[DEBUG] Golden sparql: ASK WHERE { <http://dbpedia.org/resource/Peter_Piper_Pizza> <http://dbpedia.org/ontology/industry> <http://dbpedia.org/resource/Pizza> }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [false]
+[INFO] Predicted Answer: [false]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 5, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 28968 ms, average: 56246.60 ms/ques, entity detection: 10139.60 ms/ques (linking tool: 10139.60 ms/ques), relation detection: 3746.20 ms/ques (similarity: 6.60 ms/ques), EDG generation: 20884.00 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+===============================================
+
+
+Question 5: Name the artist who made Dream Dancing and is often associated with Joe Pass?
+[ERROR] Question 5 exception: answer generation
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 6, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 44202 ms, average: 54239.17 ms/ques, entity detection: 10066.67 ms/ques (linking tool: 10066.67 ms/ques), relation detection: 3121.83 ms/ques (similarity: 5.50 ms/ques), EDG generation: 18817.33 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+===============================================
+
+
+Question 6: Who is the office holder with deputies as Neil Brown and Andrew Peacock?
+[ERROR] Question 6 exception: answer generation
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 7, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 43205 ms, average: 52662.86 ms/ques, entity detection: 9976.86 ms/ques (linking tool: 9976.86 ms/ques), relation detection: 2675.86 ms/ques (similarity: 4.71 ms/ques), EDG generation: 17109.57 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+===============================================
+
+
+Question 7: Where did these popular aeroplanes - Focke Wulf 260 and Start+Flug H 101 originate?

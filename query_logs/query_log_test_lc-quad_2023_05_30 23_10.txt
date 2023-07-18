@@ -1,0 +1,18 @@
+[INFO] System initialization time: 22 ms
+
+
+Question 0: Which architect of Marine Corps Air Station Kaneohe Bay was also tenant of New Sanno hotel /'
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Marine_Corps_Air_Station_Kaneohe_Bay> <http://dbpedia.org/property/architect> ?uri. <http://dbpedia.org/resource/New_Sanno_Hotel> <http://dbpedia.org/ontology/tenant> ?uri} 
+[INFO] SparqlGenerator list: [SELECT DISTINCT ?e0 WHERE { {?e0 <http://dbpedia.org/property/architect> <http://dbpedia.org/resource/Marine_Corps_Air_Station_Kaneohe_Bay>} UNION {<http://dbpedia.org/resource/Marine_Corps_Air_Station_Kaneohe_Bay> <http://dbpedia.org/property/architect> ?e0} . {?e0 <http://dbpedia.org/ontology/tenant> <http://dbpedia.org/resource/New_Sanno_Hotel>} UNION {<http://dbpedia.org/resource/New_Sanno_Hotel> <http://dbpedia.org/ontology/tenant> ?e0} . }]
+[INFO] Golden Answer: [http://dbpedia.org/resource/United_States_Navy]
+[INFO] Predicted Answer: [http://dbpedia.org/resource/United_States_Navy]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 1, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 43516 ms, average: 43539.00 ms/ques, entity detection: 24213.00 ms/ques (linking tool: 24202.00 ms/ques), relation detection: 9539.00 ms/ques (similarity: 9477.00 ms/ques), EDG generation: 6224.00 ms/ques
+[INFO] Entity Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Relation Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Type Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+===============================================
+
+
+Question 1: Which sects people are part of local political parties which fall under the International Muslim Brotherhood?

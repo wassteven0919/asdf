@@ -1,0 +1,32 @@
+[INFO] System initialization time: 28 ms
+
+
+Question 0: Which architect of Marine Corps Air Station Kaneohe Bay was also tenant of New Sanno hotel /'
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Marine_Corps_Air_Station_Kaneohe_Bay> <http://dbpedia.org/property/architect> ?uri. <http://dbpedia.org/resource/New_Sanno_Hotel> <http://dbpedia.org/ontology/tenant> ?uri} 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 1, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 23971 ms, average: 24000.00 ms/ques, entity detection: 3885.00 ms/ques (linking tool: 3885.00 ms/ques), relation detection: 8530.00 ms/ques (similarity: 1083.00 ms/ques), EDG generation: 7417.00 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+===============================================
+
+
+Question 1: Which sects people are part of local political parties which fall under the International Muslim Brotherhood?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/international> <http://dbpedia.org/resource/Muslim_Brotherhood> . ?x <http://dbpedia.org/ontology/religion> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PoliticalParty>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 2, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 27295 ms, average: 25648.00 ms/ques, entity detection: 5410.50 ms/ques (linking tool: 5410.50 ms/ques), relation detection: 11232.50 ms/ques (similarity: 3240.00 ms/ques), EDG generation: 5077.00 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.5, R: 0.5, micro F1: 0.5, macro F1: 0.5
+===============================================
+
+
+Question 2: List common systems are developed by of the Google Videos and written by of the Google Web Toolkit ?

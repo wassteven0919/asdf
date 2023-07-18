@@ -1,0 +1,46 @@
+[INFO] System initialization time: 26 ms
+
+
+Question 0: Which architect of Marine Corps Air Station Kaneohe Bay was also tenant of New Sanno hotel /'
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Marine_Corps_Air_Station_Kaneohe_Bay> <http://dbpedia.org/property/architect> ?uri. <http://dbpedia.org/resource/New_Sanno_Hotel> <http://dbpedia.org/ontology/tenant> ?uri} 
+[INFO] SparqlGenerator list: [SELECT DISTINCT ?e0 WHERE { {?e0 <http://dbpedia.org/property/architect> <http://dbpedia.org/resource/Marine_Corps_Air_Station_Kaneohe_Bay>} UNION {<http://dbpedia.org/resource/Marine_Corps_Air_Station_Kaneohe_Bay> <http://dbpedia.org/property/architect> ?e0} . {?e0 <http://dbpedia.org/ontology/tenant> <http://dbpedia.org/resource/New_Sanno_Hotel>} UNION {<http://dbpedia.org/resource/New_Sanno_Hotel> <http://dbpedia.org/ontology/tenant> ?e0} . }]
+[INFO] Golden Answer: [http://dbpedia.org/resource/United_States_Navy]
+[INFO] Predicted Answer: [http://dbpedia.org/resource/United_States_Navy]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 1, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 29059 ms, average: 29085.00 ms/ques, entity detection: 6363.00 ms/ques (linking tool: 6350.00 ms/ques), relation detection: 10908.00 ms/ques (similarity: 10314.00 ms/ques), EDG generation: 7778.00 ms/ques
+[INFO] Entity Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Relation Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Type Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+===============================================
+
+
+Question 1: Which sects people are part of local political parties which fall under the International Muslim Brotherhood?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/international> <http://dbpedia.org/resource/Muslim_Brotherhood> . ?x <http://dbpedia.org/ontology/religion> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PoliticalParty>}
+[INFO] SparqlGenerator list: [SELECT DISTINCT ?e0 WHERE { {?e1 <http://dbpedia.org/property/international> <http://dbpedia.org/resource/Muslim_Brotherhood>} UNION {<http://dbpedia.org/resource/Muslim_Brotherhood> <http://dbpedia.org/property/international> ?e1} . {?e0 <http://dbpedia.org/ontology/religion> ?e1} UNION {?e1 <http://dbpedia.org/ontology/religion> ?e0} . }, SELECT DISTINCT ?e0 WHERE { {?e1 <http://dbpedia.org/property/international> <http://dbpedia.org/resource/Muslim_Brotherhood>} UNION {<http://dbpedia.org/resource/Muslim_Brotherhood> <http://dbpedia.org/property/international> ?e1} . {?e0 <http://dbpedia.org/property/religion> ?e1} UNION {?e1 <http://dbpedia.org/property/religion> ?e0} . }]
+[INFO] Golden Answer: [http://dbpedia.org/resource/Sunni_Islam, http://dbpedia.org/resource/Islam, http://dbpedia.org/resource/Wahhabism]
+[INFO] Predicted Answer: [http://dbpedia.org/resource/Sunni_Islam, http://dbpedia.org/resource/Islam, http://dbpedia.org/resource/Wahhabism, http://dbpedia.org/resource/Soviet_Union, http://dbpedia.org/resource/Miloš_Zeman, http://dbpedia.org/resource/Jawahar_Navodaya_Vidyalaya,_Sitapur, http://dbpedia.org/resource/East_Bay_Innovation_Academy, http://dbpedia.org/resource/Culbert_Olson, http://dbpedia.org/resource/Vaso_Čubrilović, http://dbpedia.org/resource/Ibrahim_Alizade, http://dbpedia.org/resource/Columbus_School_for_Girls, Islam@en]
+[INFO] P: 0.2727272727272727, R: 1.0, F: 0.42857142857142855
+[INFO] Cumulative metrics, sample: 2, P: 0.636, R: 1.000, macro F1: 0.778
+[INFO] Current question consumed time: 68312 ms, average: 48698.50 ms/ques, entity detection: 6778.00 ms/ques (linking tool: 6766.00 ms/ques), relation detection: 22958.00 ms/ques (similarity: 28577.00 ms/ques), EDG generation: 5468.00 ms/ques
+[INFO] Entity Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Relation Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Type Linking P: 0.5, R: 0.5, micro F1: 0.5, macro F1: 0.5
+===============================================
+
+
+Question 2: List common systems are developed by of the Google Videos and written by of the Google Web Toolkit ?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Google_Videos> <http://dbpedia.org/property/developer> ?uri. <http://dbpedia.org/resource/Google_Web_Toolkit> <http://dbpedia.org/ontology/author> ?uri} 
+[INFO] SparqlGenerator list: [SELECT DISTINCT ?e0 WHERE { {?e0 <http://dbpedia.org/property/developer> <http://dbpedia.org/resource/Google_Videos>} UNION {<http://dbpedia.org/resource/Google_Videos> <http://dbpedia.org/property/developer> ?e0} . {?e0 <http://dbpedia.org/ontology/author> <http://dbpedia.org/resource/Google_Web_Toolkit>} UNION {<http://dbpedia.org/resource/Google_Web_Toolkit> <http://dbpedia.org/ontology/author> ?e0} . }, SELECT DISTINCT ?e0 WHERE { {?e0 <http://dbpedia.org/property/developer> <http://dbpedia.org/resource/Google_Videos>} UNION {<http://dbpedia.org/resource/Google_Videos> <http://dbpedia.org/property/developer> ?e0} . {?e0 <http://dbpedia.org/property/author> <http://dbpedia.org/resource/Google_Web_Toolkit>} UNION {<http://dbpedia.org/resource/Google_Web_Toolkit> <http://dbpedia.org/property/author> ?e0} . }]
+[INFO] Golden Answer: [http://dbpedia.org/resource/Google]
+[INFO] Predicted Answer: [http://dbpedia.org/resource/Google]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 3, P: 0.758, R: 1.000, macro F1: 0.862
+[INFO] Current question consumed time: 28668 ms, average: 42021.67 ms/ques, entity detection: 6846.00 ms/ques (linking tool: 6833.00 ms/ques), relation detection: 18631.00 ms/ques (similarity: 23359.00 ms/ques), EDG generation: 4708.00 ms/ques
+[INFO] Entity Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Relation Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Type Linking P: 0.6666666666666666, R: 0.6666666666666666, micro F1: 0.6666666666666666, macro F1: 0.6666666666666666
+===============================================
+
+
+Question 3: For which games are Sam Loyd and Eric Schiller both famous?

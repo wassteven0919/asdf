@@ -1,0 +1,1376 @@
+[INFO] System initialization time: 24 ms
+
+
+Question 0: Which architect of Marine Corps Air Station Kaneohe Bay was also tenant of New Sanno hotel /'
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Marine_Corps_Air_Station_Kaneohe_Bay> <http://dbpedia.org/property/architect> ?uri. <http://dbpedia.org/resource/New_Sanno_Hotel> <http://dbpedia.org/ontology/tenant> ?uri} 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 1, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 28040 ms, average: 28064.00 ms/ques, entity detection: 3698.00 ms/ques (linking tool: 3698.00 ms/ques), relation detection: 14758.00 ms/ques (similarity: 983.00 ms/ques), EDG generation: 6622.00 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+===============================================
+
+
+Question 1: Which sects people are part of local political parties which fall under the International Muslim Brotherhood?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/international> <http://dbpedia.org/resource/Muslim_Brotherhood> . ?x <http://dbpedia.org/ontology/religion> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PoliticalParty>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 2, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 26513 ms, average: 27288.50 ms/ques, entity detection: 4449.50 ms/ques (linking tool: 4449.50 ms/ques), relation detection: 13953.00 ms/ques (similarity: 2276.00 ms/ques), EDG generation: 5679.50 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.5, R: 0.5, micro F1: 0.5, macro F1: 0.5
+===============================================
+
+
+Question 2: List common systems are developed by of the Google Videos and written by of the Google Web Toolkit ?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Google_Videos> <http://dbpedia.org/property/developer> ?uri. <http://dbpedia.org/resource/Google_Web_Toolkit> <http://dbpedia.org/ontology/author> ?uri} 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 3, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 47333 ms, average: 33970.00 ms/ques, entity detection: 4997.33 ms/ques (linking tool: 4997.33 ms/ques), relation detection: 20064.67 ms/ques (similarity: 3493.33 ms/ques), EDG generation: 5840.33 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6666666666666666, R: 0.6666666666666666, micro F1: 0.6666666666666666, macro F1: 0.6666666666666666
+===============================================
+
+
+Question 3: For which games are Sam Loyd and Eric Schiller both famous?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?uri. <http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?uri . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 4, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 20138 ms, average: 30512.00 ms/ques, entity detection: 5019.50 ms/ques (linking tool: 5019.50 ms/ques), relation detection: 17768.50 ms/ques (similarity: 2620.00 ms/ques), EDG generation: 4941.00 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.75, R: 0.75, micro F1: 0.75, macro F1: 0.75
+===============================================
+
+
+Question 4: Is Peter Piper Pizza in the pizza industry?
+[DEBUG] Golden sparql: ASK WHERE { <http://dbpedia.org/resource/Peter_Piper_Pizza> <http://dbpedia.org/ontology/industry> <http://dbpedia.org/resource/Pizza> }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [false]
+[INFO] Predicted Answer: [false]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 5, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 12478 ms, average: 26905.20 ms/ques, entity detection: 4689.20 ms/ques (linking tool: 4689.20 ms/ques), relation detection: 15264.80 ms/ques (similarity: 2096.00 ms/ques), EDG generation: 4352.00 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.8, R: 0.8, micro F1: 0.8, macro F1: 0.8000000000000002
+===============================================
+
+
+Question 5: Name the artist who made Dream Dancing and is often associated with Joe Pass?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Joe_Pass> <http://dbpedia.org/ontology/associatedBand> ?uri. <http://dbpedia.org/resource/Dream_Dancing_(album)> <http://dbpedia.org/property/artist> ?uri . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 6, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 42868 ms, average: 29565.83 ms/ques, entity detection: 6293.67 ms/ques (linking tool: 6293.67 ms/ques), relation detection: 16663.00 ms/ques (similarity: 2543.33 ms/ques), EDG generation: 4012.17 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.8333333333333334, R: 0.8333333333333334, micro F1: 0.8333333333333334, macro F1: 0.8333333333333334
+===============================================
+
+
+Question 6: Who is the office holder with deputies as Neil Brown and Andrew Peacock?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?uri <http://dbpedia.org/property/deputy> <http://dbpedia.org/resource/Neil_Brown_(Australian_politician)> . ?uri <http://dbpedia.org/property/deputy> <http://dbpedia.org/resource/Andrew_Peacock> . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 7, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 23714 ms, average: 28729.86 ms/ques, entity detection: 6194.29 ms/ques (linking tool: 6194.29 ms/ques), relation detection: 15673.14 ms/ques (similarity: 2313.57 ms/ques), EDG generation: 3914.71 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.7142857142857143, R: 0.7142857142857143, micro F1: 0.7142857142857143, macro F1: 0.7142857142857143
+===============================================
+
+
+Question 7: Where did these popular aeroplanes - Focke Wulf 260 and Start+Flug H 101 originate?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Focke-Wulf_Fw_260> <http://dbpedia.org/property/nationalOrigin> ?uri. <http://dbpedia.org/resource/Start_+_Flug_H-101> <http://dbpedia.org/property/nationalOrigin> ?uri . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 8, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 44147 ms, average: 30657.00 ms/ques, entity detection: 6623.38 ms/ques (linking tool: 6623.38 ms/ques), relation detection: 17304.50 ms/ques (similarity: 2786.50 ms/ques), EDG generation: 3726.25 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.75, R: 0.75, micro F1: 0.75, macro F1: 0.75
+===============================================
+
+
+Question 8: Which television show 's producer is Stephen E. Ambrose and written by Erik Jendresen?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/producer> <http://dbpedia.org/resource/Stephen_E._Ambrose> . ?uri <http://dbpedia.org/property/writer> <http://dbpedia.org/resource/Erik_Jendresen>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 9, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 27734 ms, average: 30332.22 ms/ques, entity detection: 6465.00 ms/ques (linking tool: 6465.00 ms/ques), relation detection: 17298.56 ms/ques (similarity: 2706.44 ms/ques), EDG generation: 3634.33 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6666666666666666, R: 0.6666666666666666, micro F1: 0.6666666666666666, macro F1: 0.6666666666666666
+===============================================
+
+
+Question 9: Who created the Women in the Garden and also the L'Enfant a la tasse ?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Women_in_the_Garden> <http://dbpedia.org/property/artist> ?uri. <http://dbpedia.org/resource/L'Enfant_a_la_tasse> <http://dbpedia.org/property/artist> ?uri . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 10, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 50790 ms, average: 32378.00 ms/ques, entity detection: 6206.10 ms/ques (linking tool: 6206.10 ms/ques), relation detection: 19630.00 ms/ques (similarity: 3128.70 ms/ques), EDG generation: 3540.30 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.7, R: 0.7, micro F1: 0.7, macro F1: 0.7
+===============================================
+
+
+Question 10: Which famous horserace has seen both Fergie sutherland and the illustrious War of Attrition?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/War_Of_Attrition_(horse)> <http://dbpedia.org/property/race> ?uri. <http://dbpedia.org/resource/Fergie_Sutherland> <http://dbpedia.org/property/race> ?uri . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 11, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 29435 ms, average: 32110.45 ms/ques, entity detection: 6314.00 ms/ques (linking tool: 6314.00 ms/ques), relation detection: 18988.09 ms/ques (similarity: 3139.91 ms/ques), EDG generation: 3886.18 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.7272727272727273, R: 0.7272727272727273, micro F1: 0.7272727272727273, macro F1: 0.7272727272727273
+===============================================
+
+
+Question 11: Tell me the name of the Prime Time Entertainment Network's TV show whose Artist is Christopher Franke ?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/artist> <http://dbpedia.org/resource/Christopher_Franke> . ?uri <http://dbpedia.org/ontology/network> <http://dbpedia.org/resource/Prime_Time_Entertainment_Network>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 12, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 16716 ms, average: 30827.58 ms/ques, entity detection: 6119.58 ms/ques (linking tool: 6119.58 ms/ques), relation detection: 18074.25 ms/ques (similarity: 2878.25 ms/ques), EDG generation: 3774.42 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6666666666666666, R: 0.6666666666666666, micro F1: 0.6666666666666666, macro F1: 0.6666666666666666
+===============================================
+
+
+Question 12: How many other battles have the military person fought whose one of the battles is World War II ?
+[DEBUG] Golden sparql:  SELECT DISTINCT COUNT(DISTINCT ?uri) WHERE { ?x <http://dbpedia.org/property/battles> <http://dbpedia.org/resource/World_War_II> . ?x <http://dbpedia.org/property/battles> ?uri }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [0]
+[INFO] Predicted Answer: []
+[INFO] P: 0.0, R: 0.0, F: 0.0
+[INFO] Cumulative metrics, sample: 13, P: 0.923, R: 0.923, macro F1: 0.923
+[INFO] Current question consumed time: 20101 ms, average: 30002.46 ms/ques, entity detection: 5950.92 ms/ques (linking tool: 5950.92 ms/ques), relation detection: 17433.62 ms/ques (similarity: 2751.31 ms/ques), EDG generation: 3669.54 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6923076923076923, R: 0.6923076923076923, micro F1: 0.6923076923076923, macro F1: 0.6923076923076923
+===============================================
+
+
+Question 13: Whose network's parent organisation is Comcast?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/parentOrganisation> <http://dbpedia.org/resource/Comcast> . ?uri <http://dbpedia.org/ontology/network> ?x  . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 14, P: 0.929, R: 0.929, macro F1: 0.929
+[INFO] Current question consumed time: 18664 ms, average: 29192.57 ms/ques, entity detection: 6142.14 ms/ques (linking tool: 6142.14 ms/ques), relation detection: 16601.71 ms/ques (similarity: 2602.07 ms/ques), EDG generation: 3547.57 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.7142857142857143, R: 0.7142857142857143, micro F1: 0.7142857142857143, macro F1: 0.7142857142857143
+===============================================
+
+
+Question 14: Is William H Blanchard buried in Colorado?
+[DEBUG] Golden sparql: ASK WHERE { <http://dbpedia.org/resource/William_H._Blanchard> <http://dbpedia.org/property/placeofburial> <http://dbpedia.org/resource/Colorado> }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [false]
+[INFO] Predicted Answer: [false]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 15, P: 0.933, R: 0.933, macro F1: 0.933
+[INFO] Current question consumed time: 32326 ms, average: 29401.47 ms/ques, entity detection: 6412.33 ms/ques (linking tool: 6412.33 ms/ques), relation detection: 16515.40 ms/ques (similarity: 2516.27 ms/ques), EDG generation: 3598.00 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.7333333333333333, R: 0.7333333333333333, micro F1: 0.7333333333333333, macro F1: 0.7333333333333333
+===============================================
+
+
+Question 15: Which cport of Vishwajyot High School is also the genere of Battle chess 
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Battle_Chess> <http://dbpedia.org/property/genre> ?uri. <http://dbpedia.org/resource/Vishwajyot_High_School> <http://dbpedia.org/ontology/sport> ?uri} 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 16, P: 0.938, R: 0.938, macro F1: 0.938
+[INFO] Current question consumed time: 29919 ms, average: 29433.81 ms/ques, entity detection: 6926.12 ms/ques (linking tool: 6926.06 ms/ques), relation detection: 15931.00 ms/ques (similarity: 2405.00 ms/ques), EDG generation: 3748.88 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.75, R: 0.75, micro F1: 0.75, macro F1: 0.75
+===============================================
+
+
+Question 16: In which state is the Channel district?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Channel_District> <http://dbpedia.org/ontology/state> ?uri } 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 17, P: 0.941, R: 0.941, macro F1: 0.941
+[INFO] Current question consumed time: 17601 ms, average: 28737.76 ms/ques, entity detection: 6878.18 ms/ques (linking tool: 6878.12 ms/ques), relation detection: 15352.94 ms/ques (similarity: 2292.12 ms/ques), EDG generation: 3730.24 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.7647058823529411, R: 0.7647058823529411, micro F1: 0.7647058823529411, macro F1: 0.7647058823529412
+===============================================
+
+
+Question 17: Who was in the missions of Apollo 11 and Gemini 8?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?uri <http://dbpedia.org/property/mission> <http://dbpedia.org/resource/Apollo_11> . ?uri <http://dbpedia.org/property/mission> <http://dbpedia.org/resource/Gemini_8> . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 18, P: 0.944, R: 0.944, macro F1: 0.944
+[INFO] Current question consumed time: 34980 ms, average: 29084.56 ms/ques, entity detection: 6993.33 ms/ques (linking tool: 6993.28 ms/ques), relation detection: 15593.44 ms/ques (similarity: 2186.61 ms/ques), EDG generation: 3757.33 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.7777777777777778, R: 0.7777777777777778, micro F1: 0.7777777777777778, macro F1: 0.7777777777777778
+===============================================
+
+
+Question 18: What is the total number of other tenant of the stadia whose one of the tenant is Raptors 905?
+[DEBUG] Golden sparql:  SELECT DISTINCT COUNT(DISTINCT ?uri) WHERE { ?x <http://dbpedia.org/ontology/tenant> <http://dbpedia.org/resource/Raptors_905> . ?x <http://dbpedia.org/ontology/tenant> ?uri }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [0]
+[INFO] Predicted Answer: []
+[INFO] P: 0.0, R: 0.0, F: 0.0
+[INFO] Cumulative metrics, sample: 19, P: 0.895, R: 0.895, macro F1: 0.895
+[INFO] Current question consumed time: 23399 ms, average: 28785.32 ms/ques, entity detection: 7000.16 ms/ques (linking tool: 7000.11 ms/ques), relation detection: 15194.74 ms/ques (similarity: 2118.63 ms/ques), EDG generation: 3858.53 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.7894736842105263, R: 0.7894736842105263, micro F1: 0.7894736842105263, macro F1: 0.7894736842105263
+===============================================
+
+
+Question 19: Where can one find the Dzogchen Ponolop Rinpoche?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Dzogchen_Ponlop_Rinpoche> <http://dbpedia.org/property/location> ?uri } 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 20, P: 0.900, R: 0.900, macro F1: 0.900
+[INFO] Current question consumed time: 11794 ms, average: 27935.75 ms/ques, entity detection: 6737.95 ms/ques (linking tool: 6737.90 ms/ques), relation detection: 14659.05 ms/ques (similarity: 2085.85 ms/ques), EDG generation: 3833.00 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.8, R: 0.8, micro F1: 0.8, macro F1: 0.8000000000000002
+===============================================
+
+
+Question 20: Who is the stockholder of the road tunnels operated by the Massachusetts Department of Transportation?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/operator> <http://dbpedia.org/resource/Massachusetts_Department_of_Transportation> . ?x <http://dbpedia.org/property/owner> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RoadTunnel>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 21, P: 0.905, R: 0.905, macro F1: 0.905
+[INFO] Current question consumed time: 42805 ms, average: 28643.81 ms/ques, entity detection: 6737.43 ms/ques (linking tool: 6737.38 ms/ques), relation detection: 15091.67 ms/ques (similarity: 2120.76 ms/ques), EDG generation: 3981.57 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.7619047619047619, R: 0.7619047619047619, micro F1: 0.7619047619047619, macro F1: 0.7619047619047619
+===============================================
+
+
+Question 21: What are the awards won by the film director of Saraband ?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Saraband> <http://dbpedia.org/ontology/director> ?x . ?x <http://dbpedia.org/property/awards> ?uri  . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 22, P: 0.909, R: 0.909, macro F1: 0.909
+[INFO] Current question consumed time: 22822 ms, average: 28379.18 ms/ques, entity detection: 6866.09 ms/ques (linking tool: 6866.05 ms/ques), relation detection: 14552.95 ms/ques (similarity: 2032.91 ms/ques), EDG generation: 4155.64 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.7727272727272727, R: 0.7727272727272727, micro F1: 0.7727272727272727, macro F1: 0.7727272727272727
+===============================================
+
+
+Question 22: What is the almamater of the president whose vice president was Enrique Jos Varona?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/vicePresident> <http://dbpedia.org/resource/Enrique_José_Varona> . ?x <http://dbpedia.org/ontology/almaMater> ?uri  . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 23, P: 0.913, R: 0.913, macro F1: 0.913
+[INFO] Current question consumed time: 23904 ms, average: 28184.61 ms/ques, entity detection: 6936.96 ms/ques (linking tool: 6936.91 ms/ques), relation detection: 14255.61 ms/ques (similarity: 1971.00 ms/ques), EDG generation: 4203.48 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.782608695652174, R: 0.782608695652174, micro F1: 0.782608695652174, macro F1: 0.782608695652174
+===============================================
+
+
+Question 23: What is the route end of Birmingham and Oxford Junction Railway ?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Birmingham_and_Oxford_Junction_Railway> <http://dbpedia.org/ontology/routeEnd> ?uri } 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 24, P: 0.917, R: 0.917, macro F1: 0.917
+[INFO] Current question consumed time: 34030 ms, average: 28428.17 ms/ques, entity detection: 7483.21 ms/ques (linking tool: 7483.17 ms/ques), relation detection: 14030.92 ms/ques (similarity: 1991.67 ms/ques), EDG generation: 4162.92 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.7916666666666666, R: 0.7916666666666666, micro F1: 0.7916666666666666, macro F1: 0.7916666666666666
+===============================================
+
+
+Question 24: Where did the Vitis Vinifera grapes originate?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/species> <http://dbpedia.org/resource/Vitis_vinifera> . ?x <http://dbpedia.org/ontology/origin> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Grape>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 25, P: 0.920, R: 0.920, macro F1: 0.920
+[INFO] Current question consumed time: 19221 ms, average: 28059.88 ms/ques, entity detection: 7487.48 ms/ques (linking tool: 7487.44 ms/ques), relation detection: 13699.40 ms/ques (similarity: 2011.00 ms/ques), EDG generation: 4148.48 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.76, R: 0.76, micro F1: 0.76, macro F1: 0.76
+===============================================
+
+
+Question 25: How many people are there whose children died in Indiana?
+[DEBUG] Golden sparql: SELECT DISTINCT COUNT(DISTINCT ?uri) WHERE { ?x <http://dbpedia.org/ontology/deathPlace> <http://dbpedia.org/resource/Indiana> . ?uri <http://dbpedia.org/ontology/child> ?x  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [0]
+[INFO] Predicted Answer: []
+[INFO] P: 0.0, R: 0.0, F: 0.0
+[INFO] Cumulative metrics, sample: 26, P: 0.885, R: 0.885, macro F1: 0.885
+[INFO] Current question consumed time: 54855 ms, average: 29090.46 ms/ques, entity detection: 7742.38 ms/ques (linking tool: 7742.35 ms/ques), relation detection: 14438.85 ms/ques (similarity: 2045.15 ms/ques), EDG generation: 4164.81 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.7307692307692307, R: 0.7307692307692307, micro F1: 0.7307692307692307, macro F1: 0.7307692307692306
+===============================================
+
+
+Question 26: What is the military branch of the William French Smith which is also the branch of Pierre R. Graham ?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/William_French_Smith> <http://dbpedia.org/ontology/militaryBranch> ?uri. <http://dbpedia.org/resource/Pierre_R._Graham> <http://dbpedia.org/property/branch> ?uri} 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 27, P: 0.889, R: 0.889, macro F1: 0.889
+[INFO] Current question consumed time: 46494 ms, average: 29735.04 ms/ques, entity detection: 8273.37 ms/ques (linking tool: 8273.33 ms/ques), relation detection: 14438.96 ms/ques (similarity: 1998.59 ms/ques), EDG generation: 4212.26 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.7407407407407407, R: 0.7407407407407407, micro F1: 0.7407407407407407, macro F1: 0.7407407407407407
+===============================================
+
+
+Question 27: What is the river whose source is Lake Ontario?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/source> <http://dbpedia.org/resource/Lake_Ontario>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 28, P: 0.893, R: 0.893, macro F1: 0.893
+[INFO] Current question consumed time: 25131 ms, average: 29570.61 ms/ques, entity detection: 8412.93 ms/ques (linking tool: 8412.89 ms/ques), relation detection: 14129.00 ms/ques (similarity: 1934.64 ms/ques), EDG generation: 4245.39 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.7142857142857143, R: 0.7142857142857143, micro F1: 0.7142857142857143, macro F1: 0.7142857142857143
+===============================================
+
+
+Question 28: Whichlocation city of the Denver Broncos is the palce of birth of Steven Clark Cunningham ?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Denver_Broncos> <http://dbpedia.org/ontology/locationCity> ?uri. <http://dbpedia.org/resource/Steven_Clark_Cunningham> <http://dbpedia.org/ontology/birthPlace> ?uri} 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 29, P: 0.897, R: 0.897, macro F1: 0.897
+[INFO] Current question consumed time: 32558 ms, average: 29673.62 ms/ques, entity detection: 8533.45 ms/ques (linking tool: 8533.41 ms/ques), relation detection: 13845.17 ms/ques (similarity: 1908.97 ms/ques), EDG generation: 4510.79 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.7241379310344828, R: 0.7241379310344828, micro F1: 0.7241379310344828, macro F1: 0.7241379310344829
+===============================================
+
+
+Question 29: What is the religion of the person who founded the Emel magazine?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Emel_(magazine)> <http://dbpedia.org/property/founder> ?x . ?x <http://dbpedia.org/ontology/religion> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 30, P: 0.900, R: 0.900, macro F1: 0.900
+[INFO] Current question consumed time: 29075 ms, average: 29653.67 ms/ques, entity detection: 8539.37 ms/ques (linking tool: 8539.33 ms/ques), relation detection: 13652.13 ms/ques (similarity: 1885.37 ms/ques), EDG generation: 4686.43 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.7, R: 0.7, micro F1: 0.7, macro F1: 0.7
+===============================================
+
+
+Question 30: Give the name of the  managers of England national under-20 football team and England national under-21 football team?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?uri <http://dbpedia.org/property/managerclubs> <http://dbpedia.org/resource/England_national_under-20_football_team> . ?uri <http://dbpedia.org/property/managerclubs> <http://dbpedia.org/resource/England_national_under-21_football_team> . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 31, P: 0.903, R: 0.903, macro F1: 0.903
+[INFO] Current question consumed time: 36079 ms, average: 29860.94 ms/ques, entity detection: 8458.42 ms/ques (linking tool: 8458.39 ms/ques), relation detection: 13892.32 ms/ques (similarity: 1841.97 ms/ques), EDG generation: 4743.32 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.7096774193548387, R: 0.7096774193548387, micro F1: 0.7096774193548387, macro F1: 0.7096774193548389
+===============================================
+
+
+Question 31: How many cities are around the sea in which the the fig tree bay meets?
+[DEBUG] Golden sparql: SELECT DISTINCT COUNT(DISTINCT ?uri) WHERE { <http://dbpedia.org/resource/Fig_Tree_Bay> <http://dbpedia.org/ontology/inflow> ?x . ?x <http://dbpedia.org/property/cities> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Sea>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [0]
+[INFO] Predicted Answer: []
+[INFO] P: 0.0, R: 0.0, F: 0.0
+[INFO] Cumulative metrics, sample: 32, P: 0.875, R: 0.875, macro F1: 0.875
+[INFO] Current question consumed time: 33737 ms, average: 29982.06 ms/ques, entity detection: 8510.38 ms/ques (linking tool: 8510.34 ms/ques), relation detection: 13920.88 ms/ques (similarity: 1817.62 ms/ques), EDG generation: 4795.31 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6875, R: 0.6875, micro F1: 0.6875, macro F1: 0.6875
+===============================================
+
+
+Question 32: is blue lagoon island a part of the bahamas achipelago?
+[DEBUG] Golden sparql: ASK WHERE { <http://dbpedia.org/resource/Blue_Lagoon_Island> <http://dbpedia.org/ontology/archipelago> <http://dbpedia.org/resource/The_Bahamas> }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [false]
+[INFO] Predicted Answer: [false]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 33, P: 0.879, R: 0.879, macro F1: 0.879
+[INFO] Current question consumed time: 19226 ms, average: 29656.12 ms/ques, entity detection: 8360.94 ms/ques (linking tool: 8360.91 ms/ques), relation detection: 13777.97 ms/ques (similarity: 1771.03 ms/ques), EDG generation: 4730.18 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.696969696969697, R: 0.696969696969697, micro F1: 0.696969696969697, macro F1: 0.696969696969697
+===============================================
+
+
+Question 33: Name the movies distributed by RKO Pictures and has music composer as Bernard Herrmann?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/distributor> <http://dbpedia.org/resource/RKO_Pictures> . ?uri <http://dbpedia.org/ontology/musicComposer> <http://dbpedia.org/resource/Bernard_Herrmann>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 34, P: 0.882, R: 0.882, macro F1: 0.882
+[INFO] Current question consumed time: 34638 ms, average: 29802.65 ms/ques, entity detection: 8576.71 ms/ques (linking tool: 8576.68 ms/ques), relation detection: 13665.91 ms/ques (similarity: 1749.82 ms/ques), EDG generation: 4774.29 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6764705882352942, R: 0.6764705882352942, micro F1: 0.6764705882352942, macro F1: 0.6764705882352942
+===============================================
+
+
+Question 34: Did the New Way party merge in the One Israel party?
+[DEBUG] Golden sparql: ASK WHERE { <http://dbpedia.org/resource/New_Way_(Israel)> <http://dbpedia.org/ontology/mergedIntoParty> <http://dbpedia.org/resource/One_Israel> }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [false]
+[INFO] Predicted Answer: [false]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 35, P: 0.886, R: 0.886, macro F1: 0.886
+[INFO] Current question consumed time: 42564 ms, average: 30167.26 ms/ques, entity detection: 8610.43 ms/ques (linking tool: 8610.40 ms/ques), relation detection: 14015.49 ms/ques (similarity: 1706.06 ms/ques), EDG generation: 4769.94 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6857142857142857, R: 0.6857142857142857, micro F1: 0.6857142857142857, macro F1: 0.6857142857142857
+===============================================
+
+
+Question 35: How many pole drivers have been there in grand prixes where first driver was Damon Hill?
+[DEBUG] Golden sparql: SELECT DISTINCT COUNT(DISTINCT ?uri) WHERE { ?x <http://dbpedia.org/ontology/firstDriver> <http://dbpedia.org/resource/Damon_Hill> . ?x <http://dbpedia.org/ontology/poleDriver> ?uri  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/FormulaOneRacer>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [0]
+[INFO] Predicted Answer: []
+[INFO] P: 0.0, R: 0.0, F: 0.0
+[INFO] Cumulative metrics, sample: 36, P: 0.861, R: 0.861, macro F1: 0.861
+[INFO] Current question consumed time: 35617 ms, average: 30318.64 ms/ques, entity detection: 8742.67 ms/ques (linking tool: 8742.64 ms/ques), relation detection: 14049.11 ms/ques (similarity: 1714.28 ms/ques), EDG generation: 4766.86 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6666666666666666, R: 0.6666666666666666, micro F1: 0.6666666666666666, macro F1: 0.6666666666666666
+===============================================
+
+
+Question 36: Where are jockeys in Dubai World Cup from?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/race> <http://dbpedia.org/resource/Dubai_World_Cup> . ?x <http://dbpedia.org/property/birthPlace> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Jockey>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 37, P: 0.865, R: 0.865, macro F1: 0.865
+[INFO] Current question consumed time: 17693 ms, average: 29977.41 ms/ques, entity detection: 8619.38 ms/ques (linking tool: 8619.35 ms/ques), relation detection: 13879.32 ms/ques (similarity: 1667.95 ms/ques), EDG generation: 4741.08 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6486486486486487, R: 0.6486486486486487, micro F1: 0.6486486486486487, macro F1: 0.6486486486486487
+===============================================
+
+
+Question 37: Who owns the newspaper which was founded by Nehru?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/founder> <http://dbpedia.org/resource/Jawaharlal_Nehru> . ?x <http://dbpedia.org/ontology/owner> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Newspaper>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 38, P: 0.868, R: 0.868, macro F1: 0.868
+[INFO] Current question consumed time: 28962 ms, average: 29950.68 ms/ques, entity detection: 8680.82 ms/ques (linking tool: 8680.79 ms/ques), relation detection: 13756.24 ms/ques (similarity: 1686.13 ms/ques), EDG generation: 4733.29 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.631578947368421, R: 0.631578947368421, micro F1: 0.631578947368421, macro F1: 0.631578947368421
+===============================================
+
+
+Question 38: To which places do the flights go by airlines headquartered in the UK?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/headquarters> <http://dbpedia.org/resource/United_Kingdom> . ?x <http://dbpedia.org/property/destinations> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Airline>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 39, P: 0.872, R: 0.872, macro F1: 0.872
+[INFO] Current question consumed time: 40174 ms, average: 30212.82 ms/ques, entity detection: 8688.56 ms/ques (linking tool: 8688.54 ms/ques), relation detection: 13968.26 ms/ques (similarity: 1710.85 ms/ques), EDG generation: 4781.56 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6153846153846154, R: 0.6153846153846154, micro F1: 0.6153846153846154, macro F1: 0.6153846153846154
+===============================================
+
+
+Question 39: What is the magazine which have been  founded by Ralph J. Gleason?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/founder> <http://dbpedia.org/resource/Ralph_J._Gleason>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Magazine>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 40, P: 0.875, R: 0.875, macro F1: 0.875
+[INFO] Current question consumed time: 34269 ms, average: 30314.22 ms/ques, entity detection: 8810.67 ms/ques (linking tool: 8810.65 ms/ques), relation detection: 13976.38 ms/ques (similarity: 1720.35 ms/ques), EDG generation: 4744.55 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6, R: 0.6, micro F1: 0.6, macro F1: 0.6
+===============================================
+
+
+Question 40: Is Seattle the Ship builder of USS Marmora (IX-189)?
+[DEBUG] Golden sparql: ASK WHERE { <http://dbpedia.org/resource/USS_Marmora_(IX-189)> <http://dbpedia.org/property/shipBuilder> <http://dbpedia.org/resource/Seattle> }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [false]
+[INFO] Predicted Answer: [false]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 41, P: 0.878, R: 0.878, macro F1: 0.878
+[INFO] Current question consumed time: 40065 ms, average: 30552.05 ms/ques, entity detection: 8757.32 ms/ques (linking tool: 8757.29 ms/ques), relation detection: 14209.88 ms/ques (similarity: 1694.32 ms/ques), EDG generation: 4810.34 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6097560975609756, R: 0.6097560975609756, micro F1: 0.6097560975609756, macro F1: 0.6097560975609756
+===============================================
+
+
+Question 41: Is Tirana the largest city of Albania?
+[DEBUG] Golden sparql: ASK WHERE { <http://dbpedia.org/resource/Albania> <http://dbpedia.org/property/largestCity> <http://dbpedia.org/resource/Tirana> }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [false]
+[INFO] Predicted Answer: [false]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 42, P: 0.881, R: 0.881, macro F1: 0.881
+[INFO] Current question consumed time: 25847 ms, average: 30440.02 ms/ques, entity detection: 8820.90 ms/ques (linking tool: 8820.88 ms/ques), relation detection: 14022.36 ms/ques (similarity: 1662.00 ms/ques), EDG generation: 4797.76 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6190476190476191, R: 0.6190476190476191, micro F1: 0.6190476190476191, macro F1: 0.6190476190476191
+===============================================
+
+
+Question 42: In which cities can the beverage related to Barq's be found?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Barq's> <http://dbpedia.org/ontology/related> ?x . ?x <http://dbpedia.org/property/locationCity> ?uri  . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 43, P: 0.884, R: 0.884, macro F1: 0.884
+[INFO] Current question consumed time: 30170 ms, average: 30433.74 ms/ques, entity detection: 8988.49 ms/ques (linking tool: 8988.47 ms/ques), relation detection: 13883.09 ms/ques (similarity: 1636.07 ms/ques), EDG generation: 4771.09 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.627906976744186, R: 0.627906976744186, micro F1: 0.627906976744186, macro F1: 0.627906976744186
+===============================================
+
+
+Question 43: What is the birth place of the astronaut whose mission was the Vostok programmer?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/mission> <http://dbpedia.org/resource/Vostok_programme> . ?x <http://dbpedia.org/ontology/birthPlace> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Astronaut>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 44, P: 0.886, R: 0.886, macro F1: 0.886
+[INFO] Current question consumed time: 21836 ms, average: 30238.34 ms/ques, entity detection: 8987.57 ms/ques (linking tool: 8987.55 ms/ques), relation detection: 13692.07 ms/ques (similarity: 1604.05 ms/ques), EDG generation: 4771.59 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6136363636363636, R: 0.6136363636363636, micro F1: 0.6136363636363636, macro F1: 0.6136363636363636
+===============================================
+
+
+Question 44: Count everyone who studied at an institute which are in Suburbs?
+[DEBUG] Golden sparql: SELECT DISTINCT COUNT(DISTINCT ?uri) WHERE { ?x <http://dbpedia.org/ontology/campus> <http://dbpedia.org/resource/Suburb> . ?uri <http://dbpedia.org/property/education> ?x  . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [0]
+[INFO] Predicted Answer: []
+[INFO] P: 0.0, R: 0.0, F: 0.0
+[INFO] Cumulative metrics, sample: 45, P: 0.867, R: 0.867, macro F1: 0.867
+[INFO] Current question consumed time: 28930 ms, average: 30209.27 ms/ques, entity detection: 9010.80 ms/ques (linking tool: 9010.78 ms/ques), relation detection: 13629.96 ms/ques (similarity: 1579.91 ms/ques), EDG generation: 4791.51 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6222222222222222, R: 0.6222222222222222, micro F1: 0.6222222222222222, macro F1: 0.6222222222222222
+===============================================
+
+
+Question 45: Where did Whitney Wistert debut?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Whitey_Wistert> <http://dbpedia.org/property/debutteam> ?uri } 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 46, P: 0.870, R: 0.870, macro F1: 0.870
+[INFO] Current question consumed time: 15810 ms, average: 29896.24 ms/ques, entity detection: 8895.70 ms/ques (linking tool: 8895.67 ms/ques), relation detection: 13443.28 ms/ques (similarity: 1545.57 ms/ques), EDG generation: 4738.35 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6304347826086957, R: 0.6304347826086957, micro F1: 0.6304347826086957, macro F1: 0.6304347826086957
+===============================================
+
+
+Question 46: What is the major shrine of the monarchs whose successor is Dragimir of Travunia and Zachlumia?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/successor> <http://dbpedia.org/resource/Dragimir_of_Travunia_and_Zachlumia> . ?x <http://dbpedia.org/property/majorShrine> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Monarch>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 47, P: 0.872, R: 0.872, macro F1: 0.872
+[INFO] Current question consumed time: 36418 ms, average: 30035.00 ms/ques, entity detection: 8868.02 ms/ques (linking tool: 8868.00 ms/ques), relation detection: 13548.00 ms/ques (similarity: 1597.36 ms/ques), EDG generation: 4807.77 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6170212765957447, R: 0.6170212765957447, micro F1: 0.6170212765957447, macro F1: 0.6170212765957447
+===============================================
+
+
+Question 47: How many television shows have  Fox Broadcasting Company as their channel?
+[DEBUG] Golden sparql: SELECT DISTINCT COUNT(DISTINCT ?uri) WHERE {?uri <http://dbpedia.org/property/channel> <http://dbpedia.org/resource/Fox_Broadcasting_Company>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [0]
+[INFO] Predicted Answer: []
+[INFO] P: 0.0, R: 0.0, F: 0.0
+[INFO] Cumulative metrics, sample: 48, P: 0.854, R: 0.854, macro F1: 0.854
+[INFO] Current question consumed time: 24389 ms, average: 29917.40 ms/ques, entity detection: 8924.90 ms/ques (linking tool: 8924.88 ms/ques), relation detection: 13401.73 ms/ques (similarity: 1582.29 ms/ques), EDG generation: 4770.10 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6041666666666666, R: 0.6041666666666666, micro F1: 0.6041666666666666, macro F1: 0.6041666666666666
+===============================================
+
+
+Question 48: What is the river whose mouth locations are Arctic Ocean and Laptev Sea?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?uri <http://dbpedia.org/property/mouthLocation> <http://dbpedia.org/resource/Arctic_Ocean> . ?uri <http://dbpedia.org/property/mouthLocation> <http://dbpedia.org/resource/Laptev_Sea> . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 49, P: 0.857, R: 0.857, macro F1: 0.857
+[INFO] Current question consumed time: 36604 ms, average: 30053.86 ms/ques, entity detection: 9110.59 ms/ques (linking tool: 9110.57 ms/ques), relation detection: 13389.98 ms/ques (similarity: 1591.90 ms/ques), EDG generation: 4744.12 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.5918367346938775, R: 0.5918367346938775, micro F1: 0.5918367346938775, macro F1: 0.5918367346938775
+===============================================
+
+
+Question 49: What are some wars fought when Chung Il Kwon as the country's prime minister?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/primeminister> <http://dbpedia.org/resource/Chung_Il-kwon> . ?uri <http://dbpedia.org/ontology/commander> ?x  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MilitaryConflict>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 50, P: 0.860, R: 0.860, macro F1: 0.860
+[INFO] Current question consumed time: 42395 ms, average: 30300.68 ms/ques, entity detection: 9265.92 ms/ques (linking tool: 9265.90 ms/ques), relation detection: 13462.48 ms/ques (similarity: 1589.46 ms/ques), EDG generation: 4769.00 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.58, R: 0.58, micro F1: 0.58, macro F1: 0.58
+===============================================
+
+
+Question 50: Where was the person born who died in Bryn Mawr Hospital?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/placeOfDeath> <http://dbpedia.org/resource/Bryn_Mawr_Hospital> . ?x <http://dbpedia.org/property/placeOfBirth> ?uri  . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 51, P: 0.863, R: 0.863, macro F1: 0.863
+[INFO] Current question consumed time: 24253 ms, average: 30182.10 ms/ques, entity detection: 9222.94 ms/ques (linking tool: 9222.92 ms/ques), relation detection: 13400.12 ms/ques (similarity: 1590.27 ms/ques), EDG generation: 4759.51 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.5882352941176471, R: 0.5882352941176471, micro F1: 0.5882352941176471, macro F1: 0.5882352941176471
+===============================================
+
+
+Question 51: What is the faith of the Ajith Perera and religious affiliation of the Neungin High School?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Ajith_Perera> <http://dbpedia.org/ontology/religion> ?uri. <http://dbpedia.org/resource/Neungin_High_School> <http://dbpedia.org/property/religiousAffiliation> ?uri} 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 52, P: 0.865, R: 0.865, macro F1: 0.865
+[INFO] Current question consumed time: 28398 ms, average: 30147.79 ms/ques, entity detection: 9334.31 ms/ques (linking tool: 9334.29 ms/ques), relation detection: 13280.65 ms/ques (similarity: 1584.62 ms/ques), EDG generation: 4745.23 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.5961538461538461, R: 0.5961538461538461, micro F1: 0.5961538461538461, macro F1: 0.5961538461538461
+===============================================
+
+
+Question 52: Who was in military unit which played the role of Air interdiction?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/role> <http://dbpedia.org/resource/Air_interdiction> . ?uri <http://dbpedia.org/ontology/militaryUnit> ?x  . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 53, P: 0.868, R: 0.868, macro F1: 0.868
+[INFO] Current question consumed time: 23851 ms, average: 30028.98 ms/ques, entity detection: 9312.15 ms/ques (linking tool: 9312.13 ms/ques), relation detection: 13162.06 ms/ques (similarity: 1591.58 ms/ques), EDG generation: 4768.32 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6037735849056604, R: 0.6037735849056604, micro F1: 0.6037735849056604, macro F1: 0.6037735849056604
+===============================================
+
+
+Question 53: Who are the current members of Insects vs Robots?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Insects_vs_Robots> <http://dbpedia.org/property/currentMembers> ?uri } 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 54, P: 0.870, R: 0.870, macro F1: 0.870
+[INFO] Current question consumed time: 38928 ms, average: 30193.80 ms/ques, entity detection: 9300.59 ms/ques (linking tool: 9300.57 ms/ques), relation detection: 13361.06 ms/ques (similarity: 1596.56 ms/ques), EDG generation: 4761.41 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6111111111111112, R: 0.6111111111111112, micro F1: 0.6111111111111112, macro F1: 0.6111111111111112
+===============================================
+
+
+Question 54: Is Ombla originate in Croatia?
+[DEBUG] Golden sparql: ASK WHERE { <http://dbpedia.org/resource/Ombla> <http://dbpedia.org/ontology/sourceMountain> <http://dbpedia.org/resource/Croatia> }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [false]
+[INFO] Predicted Answer: [false]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 55, P: 0.873, R: 0.873, macro F1: 0.873
+[INFO] Current question consumed time: 27352 ms, average: 30142.13 ms/ques, entity detection: 9370.22 ms/ques (linking tool: 9370.20 ms/ques), relation detection: 13300.09 ms/ques (similarity: 1611.56 ms/ques), EDG generation: 4718.87 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6181818181818182, R: 0.6181818181818182, micro F1: 0.6181818181818182, macro F1: 0.6181818181818182
+===============================================
+
+
+Question 55: Greater Napanee is the home town of what people?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/hometown> <http://dbpedia.org/resource/Greater_Napanee>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 56, P: 0.875, R: 0.875, macro F1: 0.875
+[INFO] Current question consumed time: 23933 ms, average: 30031.25 ms/ques, entity detection: 9393.93 ms/ques (linking tool: 9393.91 ms/ques), relation detection: 13178.36 ms/ques (similarity: 1604.59 ms/ques), EDG generation: 4719.38 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6071428571428571, R: 0.6071428571428571, micro F1: 0.6071428571428571, macro F1: 0.6071428571428571
+===============================================
+
+
+Question 56: What place did Edwin Adams die at, which gave birth to William A Purtell?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Edwin_Adams_(politician)> <http://dbpedia.org/property/placeOfDeath> ?uri. <http://dbpedia.org/resource/William_A._Purtell> <http://dbpedia.org/ontology/birthPlace> ?uri . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 57, P: 0.877, R: 0.877, macro F1: 0.877
+[INFO] Current question consumed time: 50365 ms, average: 30387.98 ms/ques, entity detection: 9628.67 ms/ques (linking tool: 9628.65 ms/ques), relation detection: 13317.12 ms/ques (similarity: 1650.39 ms/ques), EDG generation: 4700.88 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6140350877192983, R: 0.6140350877192983, micro F1: 0.6140350877192983, macro F1: 0.6140350877192983
+===============================================
+
+
+Question 57: Name the nationalteam of Trn Vit Hng ?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Trần_Việt_Hương> <http://dbpedia.org/property/nationalteam> ?uri } 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 58, P: 0.879, R: 0.879, macro F1: 0.879
+[INFO] Current question consumed time: 21236 ms, average: 30230.19 ms/ques, entity detection: 9549.74 ms/ques (linking tool: 9549.72 ms/ques), relation detection: 13207.64 ms/ques (similarity: 1633.10 ms/ques), EDG generation: 4745.66 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6206896551724138, R: 0.6206896551724138, micro F1: 0.6206896551724138, macro F1: 0.6206896551724138
+===============================================
+
+
+Question 58: Which designer of RENFE also owns Renaissance Center ?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/RENFE_Class_333> <http://dbpedia.org/ontology/designer> ?uri. <http://dbpedia.org/resource/Renaissance_Center> <http://dbpedia.org/property/owner> ?uri} 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 59, P: 0.881, R: 0.881, macro F1: 0.881
+[INFO] Current question consumed time: 25125 ms, average: 30143.66 ms/ques, entity detection: 9600.61 ms/ques (linking tool: 9600.59 ms/ques), relation detection: 13098.83 ms/ques (similarity: 1618.36 ms/ques), EDG generation: 4727.39 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6271186440677966, R: 0.6271186440677966, micro F1: 0.6271186440677966, macro F1: 0.6271186440677966
+===============================================
+
+
+Question 59: Whihc uni did Joshua A. Siegel attend ?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Joshua_A._Siegel> <http://dbpedia.org/property/education> ?uri } 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 60, P: 0.883, R: 0.883, macro F1: 0.883
+[INFO] Current question consumed time: 35073 ms, average: 30225.82 ms/ques, entity detection: 9697.28 ms/ques (linking tool: 9697.27 ms/ques), relation detection: 13054.00 ms/ques (similarity: 1620.83 ms/ques), EDG generation: 4770.50 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6333333333333333, R: 0.6333333333333333, micro F1: 0.6333333333333333, macro F1: 0.6333333333333333
+===============================================
+
+
+Question 60: How many books are written by the author who is famous for Novelas Ejemplares?
+[DEBUG] Golden sparql: SELECT DISTINCT COUNT(DISTINCT ?uri) WHERE { ?x <http://dbpedia.org/ontology/notableWork> <http://dbpedia.org/resource/Novelas_ejemplares> . ?uri <http://dbpedia.org/ontology/author> ?x  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Book>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [0]
+[INFO] Predicted Answer: []
+[INFO] P: 0.0, R: 0.0, F: 0.0
+[INFO] Cumulative metrics, sample: 61, P: 0.869, R: 0.869, macro F1: 0.869
+[INFO] Current question consumed time: 29572 ms, average: 30215.10 ms/ques, entity detection: 9663.98 ms/ques (linking tool: 9663.97 ms/ques), relation detection: 13023.84 ms/ques (similarity: 1603.07 ms/ques), EDG generation: 4814.03 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6229508196721312, R: 0.6229508196721312, micro F1: 0.6229508196721312, macro F1: 0.6229508196721312
+===============================================
+
+
+Question 61: Name the rivers who originate from Essex?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/mouthPlace> <http://dbpedia.org/resource/Essex>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 62, P: 0.871, R: 0.871, macro F1: 0.871
+[INFO] Current question consumed time: 44736 ms, average: 30449.31 ms/ques, entity detection: 9722.85 ms/ques (linking tool: 9722.84 ms/ques), relation detection: 13084.13 ms/ques (similarity: 1621.81 ms/ques), EDG generation: 4848.71 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6129032258064516, R: 0.6129032258064516, micro F1: 0.6129032258064516, macro F1: 0.6129032258064516
+===============================================
+
+
+Question 62: Companies founded in Taiwan have typically which divisions?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/foundationPlace> <http://dbpedia.org/resource/Taiwan> . ?x <http://dbpedia.org/ontology/division> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Company>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 63, P: 0.873, R: 0.873, macro F1: 0.873
+[INFO] Current question consumed time: 50968 ms, average: 30775.00 ms/ques, entity detection: 9790.03 ms/ques (linking tool: 9790.02 ms/ques), relation detection: 13370.40 ms/ques (similarity: 1628.81 ms/ques), EDG generation: 4828.37 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6031746031746031, R: 0.6031746031746031, micro F1: 0.6031746031746031, macro F1: 0.6031746031746031
+===============================================
+
+
+Question 63: Did Timm Gunn guest in Sunrise (HIMYM)?
+[DEBUG] Golden sparql: ASK WHERE { <http://dbpedia.org/resource/Sunrise_(How_I_Met_Your_Mother)> <http://dbpedia.org/property/guests> <http://dbpedia.org/resource/Tim_Gunn> }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [false]
+[INFO] Predicted Answer: [false]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 64, P: 0.875, R: 0.875, macro F1: 0.875
+[INFO] Current question consumed time: 18141 ms, average: 30577.61 ms/ques, entity detection: 9695.36 ms/ques (linking tool: 9695.33 ms/ques), relation detection: 13269.86 ms/ques (similarity: 1620.50 ms/ques), EDG generation: 4826.38 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.609375, R: 0.609375, micro F1: 0.609375, macro F1: 0.609375
+===============================================
+
+
+Question 64: to which university did both, the Stanford Cardinal and Gerald Reaven go?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Stanford_Cardinal> <http://dbpedia.org/ontology/university> ?uri. <http://dbpedia.org/resource/Gerald_Reaven> <http://dbpedia.org/ontology/institution> ?uri} 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 65, P: 0.877, R: 0.877, macro F1: 0.877
+[INFO] Current question consumed time: 29319 ms, average: 30558.25 ms/ques, entity detection: 9702.62 ms/ques (linking tool: 9702.58 ms/ques), relation detection: 13260.65 ms/ques (similarity: 1600.55 ms/ques), EDG generation: 4814.62 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6153846153846154, R: 0.6153846153846154, micro F1: 0.6153846153846154, macro F1: 0.6153846153846154
+===============================================
+
+
+Question 65: Name the nearest city to David W. Brown House ?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/David_W._Brown_House> <http://dbpedia.org/ontology/nearestCity> ?uri } 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 66, P: 0.879, R: 0.879, macro F1: 0.879
+[INFO] Current question consumed time: 18239 ms, average: 30371.59 ms/ques, entity detection: 9610.61 ms/ques (linking tool: 9610.58 ms/ques), relation detection: 13205.36 ms/ques (similarity: 1585.47 ms/ques), EDG generation: 4789.05 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6212121212121212, R: 0.6212121212121212, micro F1: 0.6212121212121212, macro F1: 0.6212121212121212
+===============================================
+
+
+Question 66: where did Deion Sanders debut?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Deion_Sanders> <http://dbpedia.org/property/debutteam> ?uri } 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 67, P: 0.881, R: 0.881, macro F1: 0.881
+[INFO] Current question consumed time: 9601 ms, average: 30061.58 ms/ques, entity detection: 9502.66 ms/ques (linking tool: 9502.63 ms/ques), relation detection: 13058.58 ms/ques (similarity: 1561.81 ms/ques), EDG generation: 4746.10 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6268656716417911, R: 0.6268656716417911, micro F1: 0.6268656716417911, macro F1: 0.6268656716417911
+===============================================
+
+
+Question 67: What cities are nearer to Fuountain Lake Farm?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Fountain_Lake_Farm> <http://dbpedia.org/property/nearestCity> ?uri } 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 68, P: 0.882, R: 0.882, macro F1: 0.882
+[INFO] Current question consumed time: 16000 ms, average: 29854.79 ms/ques, entity detection: 9462.04 ms/ques (linking tool: 9462.01 ms/ques), relation detection: 12946.03 ms/ques (similarity: 1541.71 ms/ques), EDG generation: 4704.96 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6323529411764706, R: 0.6323529411764706, micro F1: 0.6323529411764706, macro F1: 0.6323529411764706
+===============================================
+
+
+Question 68: Who are the characters of Batman Live?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Batman_Live> <http://dbpedia.org/property/characters> ?uri } 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 69, P: 0.884, R: 0.884, macro F1: 0.884
+[INFO] Current question consumed time: 45429 ms, average: 30080.51 ms/ques, entity detection: 9528.17 ms/ques (linking tool: 9528.14 ms/ques), relation detection: 13090.80 ms/ques (similarity: 1556.87 ms/ques), EDG generation: 4730.07 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6376811594202898, R: 0.6376811594202898, micro F1: 0.6376811594202898, macro F1: 0.6376811594202898
+===============================================
+
+
+Question 69: Which artists trained in San Francisco Art Institute?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/training> <http://dbpedia.org/resource/San_Francisco_Art_Institute>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 70, P: 0.886, R: 0.886, macro F1: 0.886
+[INFO] Current question consumed time: 31553 ms, average: 30101.54 ms/ques, entity detection: 9510.17 ms/ques (linking tool: 9510.13 ms/ques), relation detection: 13144.33 ms/ques (similarity: 1540.16 ms/ques), EDG generation: 4722.09 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6285714285714286, R: 0.6285714285714286, micro F1: 0.6285714285714286, macro F1: 0.6285714285714286
+===============================================
+
+
+Question 70: What is the owning organisation of the Ford Kansas City Assembly Plant and also the builder of the Ford Y-block engine?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Ford_Kansas_City_Assembly_Plant> <http://dbpedia.org/ontology/owningOrganisation> ?uri. <http://dbpedia.org/resource/Ford_Y-block_engine> <http://dbpedia.org/ontology/manufacturer> ?uri} 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 71, P: 0.887, R: 0.887, macro F1: 0.887
+[INFO] Current question consumed time: 58090 ms, average: 30495.75 ms/ques, entity detection: 9636.44 ms/ques (linking tool: 9636.38 ms/ques), relation detection: 13411.30 ms/ques (similarity: 1553.46 ms/ques), EDG generation: 4727.54 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6338028169014085, R: 0.6338028169014085, micro F1: 0.6338028169014085, macro F1: 0.6338028169014085
+===============================================
+
+
+Question 71: Name the country with currency as Aureus ?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/currency> <http://dbpedia.org/resource/Aureus>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 72, P: 0.889, R: 0.889, macro F1: 0.889
+[INFO] Current question consumed time: 27840 ms, average: 30458.86 ms/ques, entity detection: 9721.38 ms/ques (linking tool: 9721.32 ms/ques), relation detection: 13309.94 ms/ques (similarity: 1531.89 ms/ques), EDG generation: 4717.60 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.625, R: 0.625, micro F1: 0.625, macro F1: 0.625
+===============================================
+
+
+Question 72: what awards have been given to A. Peter Dewey?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/A._Peter_Dewey> <http://dbpedia.org/ontology/award> ?uri } 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 73, P: 0.890, R: 0.890, macro F1: 0.890
+[INFO] Current question consumed time: 23495 ms, average: 30363.47 ms/ques, entity detection: 9684.40 ms/ques (linking tool: 9684.34 ms/ques), relation detection: 13297.71 ms/ques (similarity: 1537.12 ms/ques), EDG generation: 4679.86 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6301369863013698, R: 0.6301369863013698, micro F1: 0.6301369863013698, macro F1: 0.6301369863013698
+===============================================
+
+
+Question 73: How many shows belong to the network one of whose sister station is Cartoonite?
+[DEBUG] Golden sparql: SELECT DISTINCT COUNT(DISTINCT ?uri) WHERE { ?x <http://dbpedia.org/ontology/sisterStation> <http://dbpedia.org/resource/Cartoonito> . ?uri <http://dbpedia.org/property/network> ?x  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [0]
+[INFO] Predicted Answer: []
+[INFO] P: 0.0, R: 0.0, F: 0.0
+[INFO] Cumulative metrics, sample: 74, P: 0.878, R: 0.878, macro F1: 0.878
+[INFO] Current question consumed time: 28938 ms, average: 30344.20 ms/ques, entity detection: 9656.58 ms/ques (linking tool: 9656.53 ms/ques), relation detection: 13286.27 ms/ques (similarity: 1524.99 ms/ques), EDG generation: 4704.49 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6216216216216216, R: 0.6216216216216216, micro F1: 0.6216216216216216, macro F1: 0.6216216216216216
+===============================================
+
+
+Question 74: what has been developed by John Fanning?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/developer> <http://dbpedia.org/resource/John_Fanning_(businessman)> } 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 75, P: 0.880, R: 0.880, macro F1: 0.880
+[INFO] Current question consumed time: 25599 ms, average: 30280.93 ms/ques, entity detection: 9638.72 ms/ques (linking tool: 9638.67 ms/ques), relation detection: 13263.60 ms/ques (similarity: 1531.12 ms/ques), EDG generation: 4691.17 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6266666666666667, R: 0.6266666666666667, micro F1: 0.6266666666666667, macro F1: 0.6266666666666667
+===============================================
+
+
+Question 75: Muhammad Yunus has won how many awards?
+[DEBUG] Golden sparql: SELECT DISTINCT COUNT(DISTINCT ?uri) WHERE { <http://dbpedia.org/resource/Muhammad_Yunus> <http://dbpedia.org/ontology/award> ?uri  . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [0]
+[INFO] Predicted Answer: []
+[INFO] P: 0.0, R: 0.0, F: 0.0
+[INFO] Cumulative metrics, sample: 76, P: 0.868, R: 0.868, macro F1: 0.868
+[INFO] Current question consumed time: 20507 ms, average: 30152.33 ms/ques, entity detection: 9635.37 ms/ques (linking tool: 9635.32 ms/ques), relation detection: 13177.21 ms/ques (similarity: 1527.88 ms/ques), EDG generation: 4662.09 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.631578947368421, R: 0.631578947368421, micro F1: 0.631578947368421, macro F1: 0.631578947368421
+===============================================
+
+
+Question 76: List the associates of bands which have a label by Motown ?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/recordLabel> <http://dbpedia.org/resource/Motown> . ?x <http://dbpedia.org/property/associatedActs> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Band>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 77, P: 0.870, R: 0.870, macro F1: 0.870
+[INFO] Current question consumed time: 27391 ms, average: 30116.47 ms/ques, entity detection: 9648.77 ms/ques (linking tool: 9648.71 ms/ques), relation detection: 13113.23 ms/ques (similarity: 1526.79 ms/ques), EDG generation: 4679.06 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6233766233766234, R: 0.6233766233766234, micro F1: 0.6233766233766234, macro F1: 0.6233766233766234
+===============================================
+
+
+Question 77: Who wrote the musical whose composer is Emil Dean Zoghby?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/musicBy> <http://dbpedia.org/resource/Emil_Dean_Zoghby> . ?x <http://dbpedia.org/ontology/author> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Musical>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 78, P: 0.872, R: 0.872, macro F1: 0.872
+[INFO] Current question consumed time: 65831 ms, average: 30574.35 ms/ques, entity detection: 9767.65 ms/ques (linking tool: 9767.60 ms/ques), relation detection: 13409.37 ms/ques (similarity: 1511.55 ms/ques), EDG generation: 4697.23 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6153846153846154, R: 0.6153846153846154, micro F1: 0.6153846153846154, macro F1: 0.6153846153846154
+===============================================
+
+
+Question 78: Count the units garrisoned at Arlington County, Virginia.
+[DEBUG] Golden sparql: SELECT DISTINCT COUNT(DISTINCT ?uri) WHERE {?uri <http://dbpedia.org/ontology/garrison> <http://dbpedia.org/resource/Arlington_County,_Virginia>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MilitaryUnit>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [0]
+[INFO] Predicted Answer: []
+[INFO] P: 0.0, R: 0.0, F: 0.0
+[INFO] Cumulative metrics, sample: 79, P: 0.861, R: 0.861, macro F1: 0.861
+[INFO] Current question consumed time: 32609 ms, average: 30600.10 ms/ques, entity detection: 9734.89 ms/ques (linking tool: 9734.84 ms/ques), relation detection: 13464.62 ms/ques (similarity: 1495.14 ms/ques), EDG generation: 4702.63 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6075949367088608, R: 0.6075949367088608, micro F1: 0.6075949367088608, macro F1: 0.6075949367088608
+===============================================
+
+
+Question 79: What is the faith of Kwai Chang Caine ?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Kwai_Chang_Caine> <http://dbpedia.org/ontology/religion> ?uri } 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 80, P: 0.863, R: 0.863, macro F1: 0.863
+[INFO] Current question consumed time: 27399 ms, average: 30560.09 ms/ques, entity detection: 9711.21 ms/ques (linking tool: 9711.16 ms/ques), relation detection: 13345.48 ms/ques (similarity: 1486.15 ms/ques), EDG generation: 4688.02 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6125, R: 0.6125, micro F1: 0.6125, macro F1: 0.6125
+===============================================
+
+
+Question 80: Who is  related to Kelly Osbourne & Ozzy Osbourne?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?uri <http://dbpedia.org/property/relatives> <http://dbpedia.org/resource/Kelly_Osbourne> . ?uri <http://dbpedia.org/property/relatives> <http://dbpedia.org/resource/Ozzy_Osbourne> . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 81, P: 0.864, R: 0.864, macro F1: 0.864
+[INFO] Current question consumed time: 28033 ms, average: 30528.89 ms/ques, entity detection: 9751.52 ms/ques (linking tool: 9751.47 ms/ques), relation detection: 13282.77 ms/ques (similarity: 1480.65 ms/ques), EDG generation: 4653.56 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6172839506172839, R: 0.6172839506172839, micro F1: 0.6172839506172839, macro F1: 0.6172839506172839
+===============================================
+
+
+Question 81: What are the houses of the legislature where the leader is called Pullaiahgaripalli ?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Pullaiahgaripalli> <http://dbpedia.org/property/leaderTitle> ?x . ?x <http://dbpedia.org/property/houses> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Legislature>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 82, P: 0.866, R: 0.866, macro F1: 0.866
+[INFO] Current question consumed time: 26380 ms, average: 30478.29 ms/ques, entity detection: 9693.66 ms/ques (linking tool: 9693.61 ms/ques), relation detection: 13237.74 ms/ques (similarity: 1486.43 ms/ques), EDG generation: 4707.63 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6097560975609756, R: 0.6097560975609756, micro F1: 0.6097560975609756, macro F1: 0.6097560975609756
+===============================================
+
+
+Question 82: Which serving railway line of the Daund Junction railway station was also the place where 99 (2009 film) was recorded ?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Daund_Junction_railway_station> <http://dbpedia.org/ontology/servingRailwayLine> ?uri. <http://dbpedia.org/resource/99_(2009_film)> <http://dbpedia.org/property/recorded> ?uri} 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 83, P: 0.867, R: 0.867, macro F1: 0.867
+[INFO] Current question consumed time: 58656 ms, average: 30817.78 ms/ques, entity detection: 9829.28 ms/ques (linking tool: 9829.23 ms/ques), relation detection: 13393.22 ms/ques (similarity: 1502.47 ms/ques), EDG generation: 4728.46 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6144578313253012, R: 0.6144578313253012, micro F1: 0.6144578313253012, macro F1: 0.6144578313253012
+===============================================
+
+
+Question 83: List the ethnicity of Riley Reid?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Riley_Reid> <http://dbpedia.org/property/ethnicity> ?uri } 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 84, P: 0.869, R: 0.869, macro F1: 0.869
+[INFO] Current question consumed time: 28589 ms, average: 30791.25 ms/ques, entity detection: 9855.82 ms/ques (linking tool: 9855.77 ms/ques), relation detection: 13365.52 ms/ques (similarity: 1492.36 ms/ques), EDG generation: 4712.60 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6190476190476191, R: 0.6190476190476191, micro F1: 0.6190476190476191, macro F1: 0.6190476190476191
+===============================================
+
+
+Question 84: Which shows are from a company whose subsidiary is Viacom Productions?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/subsidiary> <http://dbpedia.org/resource/Viacom_Productions> . ?uri <http://dbpedia.org/property/company> ?x  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 85, P: 0.871, R: 0.871, macro F1: 0.871
+[INFO] Current question consumed time: 24799 ms, average: 30720.75 ms/ques, entity detection: 9873.29 ms/ques (linking tool: 9873.25 ms/ques), relation detection: 13285.38 ms/ques (similarity: 1477.39 ms/ques), EDG generation: 4710.75 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.611764705882353, R: 0.611764705882353, micro F1: 0.611764705882353, macro F1: 0.611764705882353
+===============================================
+
+
+Question 85:  Giuseppe Bertello and Pietro Parolin are leaders of which place ?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?uri <http://dbpedia.org/ontology/leader> <http://dbpedia.org/resource/Giuseppe_Bertello> . ?uri <http://dbpedia.org/ontology/leader> <http://dbpedia.org/resource/Pietro_Parolin> . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 86, P: 0.872, R: 0.872, macro F1: 0.872
+[INFO] Current question consumed time: 30192 ms, average: 30714.60 ms/ques, entity detection: 9924.12 ms/ques (linking tool: 9924.07 ms/ques), relation detection: 13251.12 ms/ques (similarity: 1464.14 ms/ques), EDG generation: 4695.19 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6046511627906976, R: 0.6046511627906976, micro F1: 0.6046511627906976, macro F1: 0.6046511627906976
+===============================================
+
+
+Question 86: What is the university whose campus is Mount Moosilauke?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/campus> <http://dbpedia.org/resource/Mount_Moosilauke>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/University>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 87, P: 0.874, R: 0.874, macro F1: 0.874
+[INFO] Current question consumed time: 16972 ms, average: 30556.64 ms/ques, entity detection: 9880.82 ms/ques (linking tool: 9880.77 ms/ques), relation detection: 13166.22 ms/ques (similarity: 1451.20 ms/ques), EDG generation: 4675.54 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.5977011494252874, R: 0.5977011494252874, micro F1: 0.5977011494252874, macro F1: 0.5977011494252874
+===============================================
+
+
+Question 87: How many religions are followed by the group whose architectural style can be seen on Sanggar Agung?
+[DEBUG] Golden sparql: SELECT DISTINCT COUNT(DISTINCT ?uri) WHERE { <http://dbpedia.org/resource/Sanggar_Agung> <http://dbpedia.org/property/architecturalStyle> ?x . ?x <http://dbpedia.org/ontology/religion> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/EthnicGroup>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [0]
+[INFO] Predicted Answer: []
+[INFO] P: 0.0, R: 0.0, F: 0.0
+[INFO] Cumulative metrics, sample: 88, P: 0.864, R: 0.864, macro F1: 0.864
+[INFO] Current question consumed time: 35393 ms, average: 30611.60 ms/ques, entity detection: 9899.23 ms/ques (linking tool: 9899.18 ms/ques), relation detection: 13176.24 ms/ques (similarity: 1491.62 ms/ques), EDG generation: 4705.81 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.5909090909090909, R: 0.5909090909090909, micro F1: 0.5909090909090909, macro F1: 0.5909090909090909
+===============================================
+
+
+Question 88: How many things are written in C++?
+[DEBUG] Golden sparql: SELECT DISTINCT COUNT(DISTINCT ?uri) WHERE {?uri <http://dbpedia.org/property/programmingLanguage> <http://dbpedia.org/resource/C++>  . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [0]
+[INFO] Predicted Answer: []
+[INFO] P: 0.0, R: 0.0, F: 0.0
+[INFO] Cumulative metrics, sample: 89, P: 0.854, R: 0.854, macro F1: 0.854
+[INFO] Current question consumed time: 46905 ms, average: 30794.67 ms/ques, entity detection: 9909.78 ms/ques (linking tool: 9909.73 ms/ques), relation detection: 13259.07 ms/ques (similarity: 1539.39 ms/ques), EDG generation: 4757.65 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.5955056179775281, R: 0.5955056179775281, micro F1: 0.5955056179775281, macro F1: 0.5955056179775281
+===============================================
+
+
+Question 89: Name the garrison of the Western Naval Command and line of the Vadodara Junction railway station ?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Western_Naval_Command> <http://dbpedia.org/property/garrison> ?uri. <http://dbpedia.org/resource/Vadodara_Junction_railway_station> <http://dbpedia.org/property/line> ?uri} 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 90, P: 0.856, R: 0.856, macro F1: 0.856
+[INFO] Current question consumed time: 25317 ms, average: 30733.81 ms/ques, entity detection: 9920.09 ms/ques (linking tool: 9920.04 ms/ques), relation detection: 13211.26 ms/ques (similarity: 1553.91 ms/ques), EDG generation: 4743.61 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6, R: 0.6, micro F1: 0.6, macro F1: 0.6
+===============================================
+
+
+Question 90: Who are the shareholder of the soccer club for whom Steve Holland plays?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Steve_Holland_(footballer)> <http://dbpedia.org/property/currentclub> ?x . ?x <http://dbpedia.org/property/owner> ?uri  . }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 91, P: 0.857, R: 0.857, macro F1: 0.857
+[INFO] Current question consumed time: 19933 ms, average: 30615.12 ms/ques, entity detection: 9886.73 ms/ques (linking tool: 9886.68 ms/ques), relation detection: 13123.35 ms/ques (similarity: 1536.84 ms/ques), EDG generation: 4750.36 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6043956043956044, R: 0.6043956043956044, micro F1: 0.6043956043956044, macro F1: 0.6043956043956044
+===============================================
+
+
+Question 91: Which city located on Mediterranean Sea is also the stadium of Panionios G.S.S. season ?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/2014–15_Panionios_G.S.S._season> <http://dbpedia.org/property/stadium> ?uri. <http://dbpedia.org/resource/Mediterranean_Sea> <http://dbpedia.org/property/cities> ?uri} 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 92, P: 0.859, R: 0.859, macro F1: 0.859
+[INFO] Current question consumed time: 58204 ms, average: 30915.00 ms/ques, entity detection: 9986.42 ms/ques (linking tool: 9986.38 ms/ques), relation detection: 13276.57 ms/ques (similarity: 1542.20 ms/ques), EDG generation: 4802.84 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6086956521739131, R: 0.6086956521739131, micro F1: 0.6086956521739131, macro F1: 0.6086956521739131
+===============================================
+
+
+Question 92: Was Don't Bring Me Down recorded in West Germany?
+[DEBUG] Golden sparql: ASK WHERE { <http://dbpedia.org/resource/Don't_Bring_Me_Down> <http://dbpedia.org/property/recorded> <http://dbpedia.org/resource/West_Germany> }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [false]
+[INFO] Predicted Answer: [false]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 93, P: 0.860, R: 0.860, macro F1: 0.860
+[INFO] Current question consumed time: 73340 ms, average: 31371.18 ms/ques, entity detection: 9902.29 ms/ques (linking tool: 9902.25 ms/ques), relation detection: 13807.15 ms/ques (similarity: 1536.19 ms/ques), EDG generation: 4820.00 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6129032258064516, R: 0.6129032258064516, micro F1: 0.6129032258064516, macro F1: 0.6129032258064516
+===============================================
+
+
+Question 93: Through which cities do the rivers starting at the Montauk State Park flow?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/sourcePlace> <http://dbpedia.org/resource/Montauk_State_Park> . ?x <http://dbpedia.org/ontology/city> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 94, P: 0.862, R: 0.862, macro F1: 0.862
+[INFO] Current question consumed time: 51703 ms, average: 31587.48 ms/ques, entity detection: 9944.65 ms/ques (linking tool: 9944.61 ms/ques), relation detection: 13994.39 ms/ques (similarity: 1535.10 ms/ques), EDG generation: 4810.83 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6063829787234043, R: 0.6063829787234043, micro F1: 0.6063829787234043, macro F1: 0.6063829787234043
+===============================================
+
+
+Question 94: How many ideologies do the political party of Boonchu Rojanastien hold?
+[DEBUG] Golden sparql: SELECT DISTINCT COUNT(DISTINCT ?uri) WHERE { <http://dbpedia.org/resource/Boonchu_Rojanastien> <http://dbpedia.org/property/party> ?x . ?x <http://dbpedia.org/ontology/ideology> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PoliticalParty>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [0]
+[INFO] Predicted Answer: []
+[INFO] P: 0.0, R: 0.0, F: 0.0
+[INFO] Cumulative metrics, sample: 95, P: 0.853, R: 0.853, macro F1: 0.853
+[INFO] Current question consumed time: 17601 ms, average: 31440.25 ms/ques, entity detection: 9885.32 ms/ques (linking tool: 9885.27 ms/ques), relation detection: 13918.28 ms/ques (similarity: 1526.20 ms/ques), EDG generation: 4804.93 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6, R: 0.6, micro F1: 0.6, macro F1: 0.6
+===============================================
+
+
+Question 95: What are the hubs of PLUS Helicopter Services, a highway helicopter unit of PLUS Expressways?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/PLUS_Expressways> <http://dbpedia.org/property/hubs> ?uri } 
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 96, P: 0.854, R: 0.854, macro F1: 0.854
+[INFO] Current question consumed time: 82086 ms, average: 31967.81 ms/ques, entity detection: 9919.80 ms/ques (linking tool: 9919.76 ms/ques), relation detection: 14364.38 ms/ques (similarity: 1527.65 ms/ques), EDG generation: 4804.32 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6041666666666666, R: 0.6041666666666666, micro F1: 0.6041666666666666, macro F1: 0.6041666666666666
+===============================================
+
+
+Question 96: Name the movies for which music was given by  Geoffrey Burgon and distributed by  Cinema International Corporation?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/music> <http://dbpedia.org/resource/Geoffrey_Burgon> . ?uri <http://dbpedia.org/property/distributor> <http://dbpedia.org/resource/Cinema_International_Corporation>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film>}
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: []
+[INFO] Predicted Answer: []
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 97, P: 0.856, R: 0.856, macro F1: 0.856
+[INFO] Current question consumed time: 38640 ms, average: 32036.60 ms/ques, entity detection: 9937.09 ms/ques (linking tool: 9937.05 ms/ques), relation detection: 14428.69 ms/ques (similarity: 1549.48 ms/ques), EDG generation: 4795.49 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.5979381443298969, R: 0.5979381443298969, micro F1: 0.5979381443298969, macro F1: 0.5979381443298969
+===============================================
+
+
+Question 97: Is Henry David Thoreau interested in Politics?
+[DEBUG] Golden sparql: ASK WHERE { <http://dbpedia.org/resource/Henry_David_Thoreau> <http://dbpedia.org/property/mainInterests> <http://dbpedia.org/resource/Politics> }
+[INFO] SparqlGenerator list: []
+[INFO] Golden Answer: [false]
+[INFO] Predicted Answer: [false]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 98, P: 0.857, R: 0.857, macro F1: 0.857
+[INFO] Current question consumed time: 15896 ms, average: 31871.90 ms/ques, entity detection: 9879.26 ms/ques (linking tool: 9879.21 ms/ques), relation detection: 14355.27 ms/ques (similarity: 1533.67 ms/ques), EDG generation: 4772.67 ms/ques
+[INFO] Entity Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Relation Linking P: 0.0, R: 0.0, micro F1: 0.0, macro F1: 0.0
+[INFO] Type Linking P: 0.6020408163265306, R: 0.6020408163265306, micro F1: 0.6020408163265306, macro F1: 0.6020408163265306
+===============================================
+
+
+Question 98: Among the companies who has product named Chinook who has a key person as Dennis Muilenburg ?

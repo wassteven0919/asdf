@@ -1,0 +1,88 @@
+[INFO] System initialization time: 22 ms
+
+
+Question 0: Which architect of Marine Corps Air Station Kaneohe Bay was also tenant of New Sanno hotel /'
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Marine_Corps_Air_Station_Kaneohe_Bay> <http://dbpedia.org/property/architect> ?uri. <http://dbpedia.org/resource/New_Sanno_Hotel> <http://dbpedia.org/ontology/tenant> ?uri} 
+[INFO] SparqlGenerator list: [SELECT DISTINCT ?e0 WHERE { {?e0 <http://dbpedia.org/property/architect> <http://dbpedia.org/resource/Marine_Corps_Air_Station_Kaneohe_Bay>} UNION {<http://dbpedia.org/resource/Marine_Corps_Air_Station_Kaneohe_Bay> <http://dbpedia.org/property/architect> ?e0} . {?e0 <http://dbpedia.org/ontology/tenant> <http://dbpedia.org/resource/New_Sanno_Hotel>} UNION {<http://dbpedia.org/resource/New_Sanno_Hotel> <http://dbpedia.org/ontology/tenant> ?e0} . }]
+[INFO] Golden Answer: [http://dbpedia.org/resource/United_States_Navy]
+[INFO] Predicted Answer: [http://dbpedia.org/resource/United_States_Navy]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 1, P: 1.000, R: 1.000, macro F1: 1.000
+[INFO] Current question consumed time: 44064 ms, average: 44087.00 ms/ques, entity detection: 24287.00 ms/ques (linking tool: 24271.00 ms/ques), relation detection: 9532.00 ms/ques (similarity: 9465.00 ms/ques), EDG generation: 6502.00 ms/ques
+[INFO] Entity Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Relation Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Type Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+===============================================
+
+
+Question 1: Which sects people are part of local political parties which fall under the International Muslim Brotherhood?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/international> <http://dbpedia.org/resource/Muslim_Brotherhood> . ?x <http://dbpedia.org/ontology/religion> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PoliticalParty>}
+[INFO] SparqlGenerator list: [SELECT DISTINCT ?e0 WHERE { {?e1 <http://dbpedia.org/property/international> <http://dbpedia.org/resource/Muslim_Brotherhood>} UNION {<http://dbpedia.org/resource/Muslim_Brotherhood> <http://dbpedia.org/property/international> ?e1} . {?e0 <http://dbpedia.org/ontology/religion> ?e1} UNION {?e1 <http://dbpedia.org/ontology/religion> ?e0} . }, SELECT DISTINCT ?e0 WHERE { {?e1 <http://dbpedia.org/property/international> <http://dbpedia.org/resource/Muslim_Brotherhood>} UNION {<http://dbpedia.org/resource/Muslim_Brotherhood> <http://dbpedia.org/property/international> ?e1} . {?e0 <http://dbpedia.org/property/religion> ?e1} UNION {?e1 <http://dbpedia.org/property/religion> ?e0} . }]
+[INFO] Golden Answer: [http://dbpedia.org/resource/Sunni_Islam, http://dbpedia.org/resource/Islam, http://dbpedia.org/resource/Wahhabism]
+[INFO] Predicted Answer: [http://dbpedia.org/resource/Sunni_Islam, http://dbpedia.org/resource/Islam, http://dbpedia.org/resource/Wahhabism, http://dbpedia.org/resource/Soviet_Union, http://dbpedia.org/resource/Miloš_Zeman, http://dbpedia.org/resource/Jawahar_Navodaya_Vidyalaya,_Sitapur, http://dbpedia.org/resource/East_Bay_Innovation_Academy, http://dbpedia.org/resource/Culbert_Olson, http://dbpedia.org/resource/Vaso_Čubrilović, http://dbpedia.org/resource/Ibrahim_Alizade, http://dbpedia.org/resource/Columbus_School_for_Girls, Islam@en]
+[INFO] P: 0.2727272727272727, R: 1.0, F: 0.42857142857142855
+[INFO] Cumulative metrics, sample: 2, P: 0.636, R: 1.000, macro F1: 0.778
+[INFO] Current question consumed time: 114876 ms, average: 79481.50 ms/ques, entity detection: 30252.00 ms/ques (linking tool: 30236.50 ms/ques), relation detection: 31219.50 ms/ques (similarity: 27112.00 ms/ques), EDG generation: 4883.00 ms/ques
+[INFO] Entity Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Relation Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Type Linking P: 0.5, R: 0.5, micro F1: 0.5, macro F1: 0.5
+===============================================
+
+
+Question 2: List common systems are developed by of the Google Videos and written by of the Google Web Toolkit ?
+[DEBUG] Golden sparql:  SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Google_Videos> <http://dbpedia.org/property/developer> ?uri. <http://dbpedia.org/resource/Google_Web_Toolkit> <http://dbpedia.org/ontology/author> ?uri} 
+[INFO] SparqlGenerator list: [SELECT DISTINCT ?e0 WHERE { {?e0 <http://dbpedia.org/property/developer> <http://dbpedia.org/resource/Google_Videos>} UNION {<http://dbpedia.org/resource/Google_Videos> <http://dbpedia.org/property/developer> ?e0} . {?e0 <http://dbpedia.org/ontology/author> <http://dbpedia.org/resource/Google_Web_Toolkit>} UNION {<http://dbpedia.org/resource/Google_Web_Toolkit> <http://dbpedia.org/ontology/author> ?e0} . }, SELECT DISTINCT ?e0 WHERE { {?e0 <http://dbpedia.org/property/developer> <http://dbpedia.org/resource/Google_Videos>} UNION {<http://dbpedia.org/resource/Google_Videos> <http://dbpedia.org/property/developer> ?e0} . {?e0 <http://dbpedia.org/property/author> <http://dbpedia.org/resource/Google_Web_Toolkit>} UNION {<http://dbpedia.org/resource/Google_Web_Toolkit> <http://dbpedia.org/property/author> ?e0} . }]
+[INFO] Golden Answer: [http://dbpedia.org/resource/Google]
+[INFO] Predicted Answer: [http://dbpedia.org/resource/Google]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 3, P: 0.758, R: 1.000, macro F1: 0.862
+[INFO] Current question consumed time: 78815 ms, average: 79259.67 ms/ques, entity detection: 32273.33 ms/ques (linking tool: 32263.00 ms/ques), relation detection: 31383.33 ms/ques (similarity: 22311.00 ms/ques), EDG generation: 4117.33 ms/ques
+[INFO] Entity Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Relation Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Type Linking P: 0.6666666666666666, R: 0.6666666666666666, micro F1: 0.6666666666666666, macro F1: 0.6666666666666666
+===============================================
+
+
+Question 3: For which games are Sam Loyd and Eric Schiller both famous?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?uri. <http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?uri . }
+[INFO] SparqlGenerator list: [SELECT DISTINCT ?e0 WHERE { {?e0 <http://dbpedia.org/ontology/knownFor> <http://dbpedia.org/resource/Eric_Schiller>} UNION {<http://dbpedia.org/resource/Eric_Schiller> <http://dbpedia.org/ontology/knownFor> ?e0} . {?e0 <http://dbpedia.org/ontology/knownFor> <http://dbpedia.org/resource/Sam_Loyd>} UNION {<http://dbpedia.org/resource/Sam_Loyd> <http://dbpedia.org/ontology/knownFor> ?e0} . {?e0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Game>} .}]
+[INFO] Golden Answer: [http://dbpedia.org/resource/Chess]
+[INFO] Predicted Answer: [http://dbpedia.org/resource/Chess]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 4, P: 0.818, R: 1.000, macro F1: 0.900
+[INFO] Current question consumed time: 64994 ms, average: 75693.25 ms/ques, entity detection: 31133.75 ms/ques (linking tool: 31123.50 ms/ques), relation detection: 30537.50 ms/ques (similarity: 18724.25 ms/ques), EDG generation: 3692.25 ms/ques
+[INFO] Entity Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Relation Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Type Linking P: 0.5, R: 0.5, micro F1: 0.5, macro F1: 0.5
+===============================================
+
+
+Question 4: Is Peter Piper Pizza in the pizza industry?
+[DEBUG] Golden sparql: ASK WHERE { <http://dbpedia.org/resource/Peter_Piper_Pizza> <http://dbpedia.org/ontology/industry> <http://dbpedia.org/resource/Pizza> }
+[INFO] SparqlGenerator list: [ASK WHERE { {<http://dbpedia.org/resource/Peter_Piper_Pizza> <http://dbpedia.org/ontology/industry> <http://dbpedia.org/resource/Pizza>} UNION {<http://dbpedia.org/resource/Pizza> <http://dbpedia.org/ontology/industry> <http://dbpedia.org/resource/Peter_Piper_Pizza>} . }]
+[INFO] Golden Answer: [true]
+[INFO] Predicted Answer: [true]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 5, P: 0.855, R: 1.000, macro F1: 0.922
+[INFO] Current question consumed time: 36550 ms, average: 67864.60 ms/ques, entity detection: 29743.80 ms/ques (linking tool: 29732.60 ms/ques), relation detection: 25932.60 ms/ques (similarity: 16567.00 ms/ques), EDG generation: 3385.80 ms/ques
+[INFO] Entity Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Relation Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Type Linking P: 0.6, R: 0.6, micro F1: 0.6, macro F1: 0.6
+===============================================
+
+
+Question 5: Name the artist who made Dream Dancing and is often associated with Joe Pass?
+[DEBUG] Golden sparql: SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Joe_Pass> <http://dbpedia.org/ontology/associatedBand> ?uri. <http://dbpedia.org/resource/Dream_Dancing_(album)> <http://dbpedia.org/property/artist> ?uri . }
+[INFO] SparqlGenerator list: [SELECT DISTINCT ?e0 WHERE { {?e0 <http://dbpedia.org/ontology/artist> <http://dbpedia.org/resource/Dream_Dancing_(album)>} UNION {<http://dbpedia.org/resource/Dream_Dancing_(album)> <http://dbpedia.org/ontology/artist> ?e0} . {?e0 <http://dbpedia.org/ontology/associatedBand> <http://dbpedia.org/resource/Joe_Pass>} UNION {<http://dbpedia.org/resource/Joe_Pass> <http://dbpedia.org/ontology/associatedBand> ?e0} . }, SELECT DISTINCT ?e0 WHERE { {?e0 <http://dbpedia.org/property/artist> <http://dbpedia.org/resource/Dream_Dancing_(album)>} UNION {<http://dbpedia.org/resource/Dream_Dancing_(album)> <http://dbpedia.org/property/artist> ?e0} . {?e0 <http://dbpedia.org/ontology/associatedBand> <http://dbpedia.org/resource/Joe_Pass>} UNION {<http://dbpedia.org/resource/Joe_Pass> <http://dbpedia.org/ontology/associatedBand> ?e0} . }]
+[INFO] Golden Answer: [http://dbpedia.org/resource/Ella_Fitzgerald]
+[INFO] Predicted Answer: [http://dbpedia.org/resource/Ella_Fitzgerald]
+[INFO] P: 1.0, R: 1.0, F: 1.0
+[INFO] Cumulative metrics, sample: 6, P: 0.879, R: 1.000, macro F1: 0.935
+[INFO] Current question consumed time: 75969 ms, average: 69215.50 ms/ques, entity detection: 29419.33 ms/ques (linking tool: 29406.67 ms/ques), relation detection: 27189.50 ms/ques (similarity: 16838.33 ms/ques), EDG generation: 3261.00 ms/ques
+[INFO] Entity Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Relation Linking P: 1.0, R: 1.0, micro F1: 1.0, macro F1: 1.0
+[INFO] Type Linking P: 0.6666666666666666, R: 0.6666666666666666, micro F1: 0.6666666666666666, macro F1: 0.6666666666666666
+===============================================
+
+
+Question 6: Who is the office holder with deputies as Neil Brown and Andrew Peacock?

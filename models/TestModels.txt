@@ -1,0 +1,6 @@
+curl -Uri '127.0.0.1:5682/relation_detection' -Method 'POST' -H @{"Content-Type"= "application/json"} -Body '{"question": "who is the hoster of", "labels": ["hoster","visitor"]}'
+
+curl -Uri '127.0.0.1:5683/query_rerank' -Method 'POST' -H @{"Content-Type"= "application/json"} -Body '{"edg_block": "[BLK]  [DES] are the bands associated with #entity1 [BLK]  [DES] the artists of My Favorite Girl", "sparql_queries": ["\t [TRP] ?e1 Artist My Favorite Girl (Dave Hollister song) [TRP] ?e0 associated musical artist ?e1"]}'
+
+
+curl -Uri '127.0.0.1:5684/query_rerank' -Method 'POST' -H @{"Content-Type"= "application/json"} -Body '{"edg_block": "[BLK]  [DES] are the bands associated with #entity1 [BLK]  [DES] the artists of My Favorite Girl", "sparql_queries": ["\t [TRP] ?e1 Artist My Favorite Girl (Dave Hollister song) [TRP] ?e0 associated musical artist ?e1"]}'
